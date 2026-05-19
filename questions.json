@@ -1,0 +1,4332 @@
+[
+  {
+    "question": "1. Nuqtadan tekislikkacha bo'lgan masofa qanday hisoblanadi?",
+    "options": [
+      "d = |Ax0 + By0 + Cz0 + D| / ildiz(A^2 + B^2 + C^2)",
+      "d = Ax0 + By0 + Cz0 + D",
+      "d = (Ax0 + By0 + Cz0 + D) / ildiz(x0^2 + y0^2 + z0^2)",
+      "d = ildiz((x - x0)^2 + (y - y0)^2 + (z - z0)^2)"
+    ],
+    "correct": "d = |Ax0 + By0 + Cz0 + D| / ildiz(A^2 + B^2 + C^2)"
+  },
+  {
+    "question": "2. Vektorlarning kollinear bo'lishi uchun … shart?",
+    "options": [
+      "Ularning mos koordinatalari mutanosib (proporsional) bo'lishi kerak",
+      "Ularning skalyar ko'paytmasi nolga teng bo'lishi kerak",
+      "Ularning koordinatalari yig'indisi nolga teng bo'lishi kerak",
+      "Ularni vektor ko'paytmasi birga teng bo'lishi kerak"
+    ],
+    "correct": "Ularning mos koordinatalari mutanosib (proporsional) bo'lishi kerak"
+  },
+  {
+    "question": "3. A(-1,2,3) va B(4,5,6) nuqtalar orasidagi vektor qanday?",
+    "options": [
+      "{5; 3; 3}",
+      "{3; 7; 9}",
+      "{-5; -3; -3}",
+      "{5; 7; 9}"
+    ],
+    "correct": "{5; 3; 3}"
+  },
+  {
+    "question": "4. -3x-4y-6=0 tenglamani normal shaklda yozing?",
+    "options": [
+      "-3/5x - 4/5y - 6/5 = 0",
+      "3/5x - 4/5y + 6/5 = 0",
+      "3x + 4y + 6 = 0",
+      "3/5x + 4/5y + 6/5 = 0"
+    ],
+    "correct": "-3/5x - 4/5y - 6/5 = 0"
+  },
+  {
+    "question": "5. Bazis vektorlar qaysilar?",
+    "options": [
+      "Koordinata o'qlarining i, j, k birlik vektorlari",
+      "Faqat Ox o'qida yotuvchi vektorlar",
+      "Skalyar ko'paytmasi 1 ga teng bo'lgan ixtiyoriy ikki vektor",
+      "Uzunligi ixtiyoriy bo'lgan har qanday vektorlar"
+    ],
+    "correct": "Koordinata o'qlarining i, j, k birlik vektorlari"
+  },
+  {
+    "question": "6. Vektorning uzunligi nimaga teng?",
+    "options": [
+      "Uning koordinatalari kvadratlarining yig'indisidan olingan kvadrat ildizga",
+      "Uning boshlang'ich va oxirgi koordinatalari ayirmasiga",
+      "Uning mos koordinatalarining ko'paytmasiga",
+      "Uning barcha koordinatalarining yig'indisiga"
+    ],
+    "correct": "Uning koordinatalari kvadratlarining yig'indisidan olingan kvadrat ildizga"
+  },
+  {
+    "question": "7. Ikki vektor orasidagi burchak kosinusi qanday topiladi?",
+    "options": [
+      "Vektorlarning skalyar ko'paytmasini ularning modullari ko'paytmasiga bo'lish orqali",
+      "Ularning modullari ayirmasini topish orqali",
+      "Vektor ko'paytmaning skalyar ko'paytmaga bo'lish orqali",
+      "Vektorlar koordinatalari yig'indisini hisoblash orqali"
+    ],
+    "correct": "Vektorlarning skalyar ko'paytmasini ularning modullari ko'paytmasiga bo'lish orqali"
+  },
+  {
+    "question": "8. Vektorlarning vektor ko'paytmasidan nima hosil bo’ladi?",
+    "options": [
+      "Vektor",
+      "Kesma",
+      "Skalyar miqdor (son)",
+      "Matritsa"
+    ],
+    "correct": "Vektor"
+  },
+  {
+    "question": "9. Aylananing kanonik tenglamasi qanday?",
+    "options": [
+      "(x-a)^2 + (y-b)^2 = R^2",
+      "y^2 = 2px",
+      "x^2/a^2 - y^2/b^2 = 1",
+      "x^2/a^2 + y^2/b^2 = 1"
+    ],
+    "correct": "(x-a)^2 + (y-b)^2 = R^2"
+  },
+  {
+    "question": "10. Vektorlarning skalyar ko'paytmasini hisoblanishi qanday?",
+    "options": [
+      "Mos koordinatalari ko'paytmalari yig'indisiga teng",
+      "Koordinatalar kvadratlari ildiziga teng",
+      "Mos koordinatalari ayirmalarining ko'paytmasiga teng",
+      "Vektor ko'paytmaning moduliga teng"
+    ],
+    "correct": "Mos koordinatalari ko'paytmalari yig'indisiga teng"
+  },
+  {
+    "question": "11. To'g'ri chiziqning perpendikulyarlik sharti qanday?",
+    "options": [
+      "A1A2 + B1B2 = 0 yoki k1 * k2 = -1",
+      "A1A2 - B1B2 = 0",
+      "A1/A2 = B1/B2",
+      "A1B2 - A2B1 = 0 yoki k1 = k2"
+    ],
+    "correct": "A1A2 + B1B2 = 0 yoki k1 * k2 = -1"
+  },
+  {
+    "question": "12. Vektorlar ustida qanday chiziqli amallari mavjud?",
+    "options": [
+      "Vektorlarni qo'shish va vektorni songa ko'paytirish",
+      "Vektorlarni determinantga ko'paytirish",
+      "Faqat vektorlarni bo'lish",
+      "Faqat vektorlarni skalyar ko'paytirish"
+    ],
+    "correct": "Vektorlarni qo'shish va vektorni songa ko'paytirish"
+  },
+  {
+    "question": "13. -3 x −4 y +6=0 tenglamani normal shaklda yozing.",
+    "options": [
+      "3/5x + 4/5y - 6/5 = 0",
+      "-3/5x - 4/5y + 6/5 = 0",
+      "3/5x - 4/5y - 6/5 = 0",
+      "3x + 4y - 6 = 0"
+    ],
+    "correct": "3/5x + 4/5y - 6/5 = 0"
+  },
+  {
+    "question": "14. Giperbola asimptotalarini hisoblash formulasi?",
+    "options": [
+      "y = +-(b/a)x",
+      "y = +-(a/b)x",
+      "y = +-ildiz(a^2+b^2)x",
+      "y = +-(p/2)x"
+    ],
+    "correct": "y = +-(b/a)x"
+  },
+  {
+    "question": "15. Parabola fokus masofasi qanday topiladi?",
+    "options": [
+      "F(p/2; 0) koordinatadan, ya'ni fokusgacha masofa p/2",
+      "F(p; 0) koordinatadan, ya'ni fokusgacha masofa p",
+      "F(0; p/2) koordinatadan, ya'ni fokusgacha masofa 2p",
+      "F(p/4; 0) koordinatadan, ya'ni fokusgacha masofa p/4"
+    ],
+    "correct": "F(p/2; 0) koordinatadan, ya'ni fokusgacha masofa p/2"
+  },
+  {
+    "question": "16. Ellips kanonik tenglamasi qanday formula orqali hhisoblanadi?",
+    "options": [
+      "x^2/a^2 + y^2/b^2 = 1",
+      "y^2 = 2px",
+      "x^2 + y^2 = R^2",
+      "x^2/a^2 - y^2/b^2 = 1"
+    ],
+    "correct": "x^2/a^2 + y^2/b^2 = 1"
+  },
+  {
+    "question": "17. Uchlari (4; -5) va (-8; 7) nuqtalarda joylashgan AB kesmani λ = 1 : 5 nisbatda bo'luvchi nuqtaning koordinatasini toping",
+    "options": [
+      "(2; -3)",
+      "(-2; 3)",
+      "(3; -2)",
+      "(-4; 1)"
+    ],
+    "correct": "(2; -3)"
+  },
+  {
+    "question": "18. To'g'ri chiziqni umumiy tenglamasi qanday hisoblanadi?",
+    "options": [
+      "Ax + By + C = 0",
+      "y = kx + b",
+      "x/a + y/b = 1",
+      "A(x-x0) + B(y-y0) = 0"
+    ],
+    "correct": "Ax + By + C = 0"
+  },
+  {
+    "question": "19. Vektorlarni aralash ko‘paytmasi qanday hisoblanadi?",
+    "options": [
+      "Uchta vektor koordinatalaridan tuzilgan uchinchi tartibli determinant qiymati orqali",
+      "Ikki vektor ko'paytmasiga uchinchi vektorni qo'shish orqali",
+      "Mos koordinatalarni ketma-ket ko'paytirish orqali",
+      "Vektorlar modullarini o'zaro ko'paytirish orqali"
+    ],
+    "correct": "Uchta vektor koordinatalaridan tuzilgan uchinchi tartibli determinant qiymati orqali"
+  },
+  {
+    "question": "20. Tekislikda dekart koordinatalar sistemasi?",
+    "options": [
+      "O'zaro perpendikulyar bo'lgan va bitta nuqtada kesishuvchi koordinata o'qlari sistemasi",
+      "Fazodagi ixtiyoriy uchta parallel chiziqlar to'plami",
+      "Burchak va radius yordamida nuqtani aniqlovchi sistema",
+      "Faqat bitta koordinata o'qidan iborat sistema"
+    ],
+    "correct": "O'zaro perpendikulyar bo'lgan va bitta nuqtada kesishuvchi koordinata o'qlari sistemasi"
+  },
+  {
+    "question": "21. Ikki nuqta orasidagi masofani toppish formulasi?",
+    "options": [
+      "d = ildiz((x2-x1)^2 + (y2-y1)^2)",
+      "d = (x2-x1) + (y2-y1)",
+      "d = ildiz(x2^2 + y2^2)",
+      "d = ildiz((x2+x1)^2 + (y2+y1)^2)"
+    ],
+    "correct": "d = ildiz((x2-x1)^2 + (y2-y1)^2)"
+  },
+  {
+    "question": "22. M0(2; 1; 3) nuqtadan o'tuvchi, a(-3; 2; 1) va b(2; 3; -2) vektorlarga parallel tekislik tenglamasini toping.",
+    "options": [
+      "7x + 4y + 13z - 57 = 0",
+      "3x + 2y - z - 5 = 0",
+      "7x + 4y - 13z + 21 = 0",
+      "7x - 4y + 13z - 45 = 0"
+    ],
+    "correct": "7x + 4y + 13z - 57 = 0"
+  },
+  {
+    "question": "23. Qutb koordinatalar sistemasida nuqtani berilishi?",
+    "options": [
+      "M(rho; phi), qutb radiusi va qutb burchagi bilan",
+      "M(k; b), burchak koeffitsiyenti bilan",
+      "M(x; y; z), fazoviy koordinatalar bilan",
+      "M(x; y), absissa va ordinata bilan"
+    ],
+    "correct": "M(rho; phi), qutb radiusi va qutb burchagi bilan"
+  },
+  {
+    "question": "24. To‘g‘ri chiziqning burchak koeffitsiyent tenglamasi qanday?",
+    "options": [
+      "y = kx + b",
+      "Ax + By + C = 0",
+      "x/a + y/b = 1",
+      "y - y0 = k(x - x0)"
+    ],
+    "correct": "y = kx + b"
+  },
+  {
+    "question": "25. To'g'ri chiziqning yo'naltiruvchi vektori s(2; -1; 3) bo'lsa, unga parallel to'g'ri chiziqning yo'naltiruvchi vektori qanday bo'lishi mumkin?",
+    "options": [
+      "{4; -2; 6}",
+      "{1; -1; 1}",
+      "{2; 1; 3}",
+      "{-2; 1; 3}"
+    ],
+    "correct": "{4; -2; 6}"
+  },
+  {
+    "question": "26. To‘g‘ri chiziqlaring parallellik alomati?",
+    "options": [
+      "A1/A2 = B1/B2 yoki k1 = k2",
+      "A1A2 + B1B2 = 0",
+      "A1/B1 = A2/B2",
+      "A1B2 - A2B1 = 0"
+    ],
+    "correct": "A1/A2 = B1/B2 yoki k1 = k2"
+  },
+  {
+    "question": "27. To'g'ri chiziq va tekislikning kesishish nuqtasi qanday topiladi?",
+    "options": [
+      "To'g'ri chiziq va tekislik tenglamalarini sistema qilib yechish orqali",
+      "UlAnnotations normal vektorlarini ko'paytirish orqali",
+      "Nuqtadan tekislikkacha masofani nolga tenglashtirish orqali",
+      "To'g'ri chiziq tenglamasini tekislik tenglamasiga bo'lish orqali"
+    ],
+    "correct": "To'g'ri chiziq va tekislik tenglamalarini sistema qilib yechish orqali"
+  },
+  {
+    "question": "28. M1(1; 2) va M2(3; 5) nuqtalardan o'tuvchi to'g'ri chiziq tenglamasini toping",
+    "options": [
+      "3x - 2y + 1 = 0",
+      "3x + 2y - 7 = 0",
+      "2x - 3y + 4 = 0",
+      "3x - 2y - 1 = 0"
+    ],
+    "correct": "3x - 2y + 1 = 0"
+  },
+  {
+    "question": "29. To‘g‘ri chiziqning koordinata o‘qlaridan ajratgan kesmalar bo‘yicha tenglamasi qanday?",
+    "options": [
+      "x/a + y/b = 1",
+      "y = kx + b",
+      "Ax + By + C = 0",
+      "(x-x1)/(x2-x1) = (y-y1)/(y2-y1)"
+    ],
+    "correct": "x/a + y/b = 1"
+  },
+  {
+    "question": "30. M0(4; -2; 5) nuqtadan o'tib, s(3; 0; -1) yo'naltiruvchi vektorga ega to'g'ri chiziq tenglamasini ko'rsating",
+    "options": [
+      "(x-4)/3 = (y+2)/0 = (z-5)/(-1)",
+      "(x-3)/4 = y/(-2) = (z+1)/5",
+      "(x+4)/3 = (y-2)/0 = (z+5)/(-1)",
+      "3(x-4) - 1(z-5) = 0"
+    ],
+    "correct": "(x-4)/3 = (y+2)/0 = (z-5)/(-1)"
+  },
+  {
+    "question": "31. M0(2; -1) nuqtadan o'tib, n(3; 4) vektoriga perpendikulyar to'g'ri chiziq tenglamasini ko'rsating:",
+    "options": [
+      "3x + 4y - 2 = 0",
+      "3x + 4y + 2 = 0",
+      "4x + 3y - 5 = 0",
+      "3x - 4y + 2 = 0"
+    ],
+    "correct": "3x + 4y - 2 = 0"
+  },
+  {
+    "question": "32. A(3; 5; 1) va B(2; -6; 3) nuqtalar berilgan. AB kesmaning 2x - 3y + 6z - 1 = 0 tekislik ajratgan nisbati qanday?",
+    "options": [
+      "4/39",
+      "2/3",
+      "5/41",
+      "-5/2"
+    ],
+    "correct": "4/39"
+  },
+  {
+    "question": "33. Aylanani xossalaridan biri?",
+    "options": [
+      "Markazdan hamma nuqtalari teng uzoqlikda yotadi",
+      "Asimptotalarga ega bo'ladi",
+      "Fokuslari orasidagi masofa doim o'zgarmas bo'ladi",
+      "Ekssentrisiteti birdan katta bo'ladi"
+    ],
+    "correct": "Markazdan hamma nuqtalari teng uzoqlikda yotadi"
+  },
+  {
+    "question": "34. Giperbola kanonik tenglamasi?",
+    "options": [
+      "x^2/a^2 - y^2/b^2 = 1",
+      "y^2 = 2px",
+      "x^2 + y^2 = R^2",
+      "x^2/a^2 + y^2/b^2 = 1"
+    ],
+    "correct": "x^2/a^2 - y^2/b^2 = 1"
+  },
+  {
+    "question": "35. Tekislikni umumiy tenglamasi?",
+    "options": [
+      "Ax + By + Cz + D = 0",
+      "x/a + y/b + z/c = 1",
+      "Ax + By + C = 0",
+      "z = kx + b"
+    ],
+    "correct": "Ax + By + Cz + D = 0"
+  },
+  {
+    "question": "36. To'g'ri chiziqning parametrik tenglamasi?",
+    "options": [
+      "x = x0 + lt, y = y0 + mt, z = z0 + nt",
+      "y = kx + b",
+      "(x-x0)/l = (y-y0)/m = (z-z0)/n",
+      "Ax + By + Cz + D = 0"
+    ],
+    "correct": "x = x0 + lt, y = y0 + mt, z = z0 + nt"
+  },
+  {
+    "question": "37. Vektorlar komplanar bo'lish sharti qanday?",
+    "options": [
+      "Ularning aralash ko'paytmasi nolga teng bo'lishi kerak",
+      "Ularning modullari o'zaro teng bo'lishi kerak",
+      "Ularning koordinatalari yig'indisi nolga teng bo'lishi kerak",
+      "Ularning skalyar ko'paytmasi nolga teng bo'lishi kerak"
+    ],
+    "correct": "Ularning aralash ko'paytmasi nolga teng bo'lishi kerak"
+  },
+  {
+    "question": "38. Parabolani kanonik tenglamasi qanday?",
+    "options": [
+      "y^2 = 2px",
+      "x^2 + y^2 = R^2",
+      "x^2/a^2 - y^2/b^2 = 1",
+      "x^2/a^2 + y^2/b^2 = 1"
+    ],
+    "correct": "y^2 = 2px"
+  },
+  {
+    "question": "39. Giperbola asimptotalari tenglamasi qanday?",
+    "options": [
+      "y = +-(b/a)x",
+      "y^2 = 2px",
+      "y = +-(a/b)x",
+      "y = kx + b"
+    ],
+    "correct": "y = +-(b/a)x"
+  },
+  {
+    "question": "40. Vektorlar aralash ko’paytmasi qanday hisoblanadi?",
+    "options": [
+      "[a, b, c] = (a x b) · c",
+      "[a, b, c] = a + b + c",
+      "[a, b, c] = (a · b) x c",
+      "[a, b, c] = a · b · c"
+    ],
+    "correct": "[a, b, c] = (a x b) · c"
+  },
+  {
+    "question": "41. Ikki tekislikni kesishishidan nima hosil bo'ladi?",
+    "options": [
+      "To'g'ri chiziq",
+      "Vektor",
+      "Sirt",
+      "Nuqta"
+    ],
+    "correct": "To'g'ri chiziq"
+  },
+  {
+    "question": "42. A(3; 5; 1) va B(2; -6; 3) nuqtalar berilgan. AB kesmaning 2x - 3y + 5z - 1 = 0 tekislik ajratgan nisbati qanday?",
+    "options": [
+      "15/4",
+      "-15/4",
+      "3/5",
+      "4/15"
+    ],
+    "correct": "15/4"
+  },
+  {
+    "question": "43. M0(x0, y0) nuqtadan o'tuvchi va n(A, B) normal vektorga ega to'g'ri chiziqning umumiy tenglamasi qaysi?",
+    "options": [
+      "A(x - x0) + B(y - y0) = 0",
+      "x/a + y/b = 1",
+      "Ax + By + C = 0",
+      "y - y0 = k(x - x0)"
+    ],
+    "correct": "A(x - x0) + B(y - y0) = 0"
+  },
+  {
+    "question": "44. Ikki vektorni orasidagi burchakni topish uchun qaysi formula ishlatiladi?",
+    "options": [
+      "cos(phi) = (a · b) / (|a| · |b|)",
+      "cos(phi) = a · b",
+      "sin(phi) = (a · b) / (|a| · |b|)",
+      "cos(phi) = |a x b| / (|a| · |b|)"
+    ],
+    "correct": "cos(phi) = (a · b) / (|a| · |b|)"
+  },
+  {
+    "question": "45. A(1,2,3) va B(4,-5,6) nuqtalar orasidagi masofa qanday hisoblanadi?",
+    "options": [
+      "ildiz((4-1)^2 + (-5-2)^2 + (6-3)^2)",
+      "ildiz((4+1)^2 + (-5+2)^2 + (6+3)^2)",
+      "(4-1) + (-5-2) + (6-3)",
+      "ildiz(4^2 + (-5)^2 + 6^2)"
+    ],
+    "correct": "ildiz((4-1)^2 + (-5-2)^2 + (6-3)^2)"
+  },
+  {
+    "question": "46. Aylana tenglamasini umumiy ko'rinishi qanday?",
+    "options": [
+      "x^2 + y^2 + Ax + By + C = 0",
+      "x^2/a^2 + y^2/b^2 = 1",
+      "Ax + By + C = 0",
+      "y = ax^2 + bx + C"
+    ],
+    "correct": "x^2 + y^2 + Ax + By + C = 0"
+  },
+  {
+    "question": "47. a(3,-2), b(1,4) vektorlari uchun 2a - 5b vektorining koordinatalari qanday?",
+    "options": [
+      "{1; -24}",
+      "{1; 16}",
+      "{-1; 24}",
+      "{11; -24}"
+    ],
+    "correct": "{1; -24}"
+  },
+  {
+    "question": "48. To'g'ri chiziqlarni perpendikulyarlik sharti?",
+    "options": [
+      "A1A2 + B1B2 = 0 yoki k1 * k2 = -1",
+      "k1 = k2 yoki A1/A2 = B1/B2",
+      "A1B2 - A2B1 = 0",
+      "k1 * k2 = 1"
+    ],
+    "correct": "A1A2 + B1B2 = 0 yoki k1 * k2 = -1"
+  },
+  {
+    "question": "49. a(1,2,-3) va b(4,5,6) vektorlarining skalyar ko'paytmasi qanday hisoblanadi?",
+    "options": [
+      "1*4 + 2*5 + (-3)*6 = -4",
+      "1*4 + 2*5 + 3*6 = 32",
+      "ildiz(14) * ildiz(77)",
+      "0"
+    ],
+    "correct": "1*4 + 2*5 + (-3)*6 = -4"
+  },
+  {
+    "question": "50. a(2,-1) va b(3,4) vektorlari uchun 2a -4b vektorining koordinatalari qanday?",
+    "options": [
+      "{-8; -18}",
+      "{8; -18}",
+      "{-8; 14}",
+      "{-2; -6}"
+    ],
+    "correct": "{-8; -18}"
+  },
+  {
+    "question": "51. Ellipsni yarim katta o'qi 5 ga, yarim kichik o'qi 3 ga teng bo'lsa, uning ekssentrisiteti qanday hisoblanadi?",
+    "options": [
+      "e = c / a = ildiz(5^2 - 3^2) / 5 = 4/5",
+      "e = b / a = 3/5",
+      "e = a / c = 5/4",
+      "e = c / b = 4/3"
+    ],
+    "correct": "e = c / a = ildiz(5^2 - 3^2) / 5 = 4/5"
+  },
+  {
+    "question": "52. Ellipsning yarim katta o'qi 3 ga teng va yarim kichik o'qi 2 ga teng bo'lsa, uning ekssentrisiteti qanday hisoblanadi?",
+    "options": [
+      "e = ildiz(3^2 - 2^2) / 3 = ildiz(5)/3",
+      "e = ildiz(3^2 + 2^2) / 3 = ildiz(13)/3",
+      "e = 2/3",
+      "e = 3/2"
+    ],
+    "correct": "e = ildiz(3^2 - 2^2) / 3 = ildiz(5)/3"
+  },
+  {
+    "question": "53. 2x - 3y + 6 = 0 to'g'ri chiziq hamda A(1,-2) nuqta orasidagi masofa qanday hisoblanadi?",
+    "options": [
+      "d = |2*1 - 3(-2) + 6| / ildiz(2^2 + (-3)^2)",
+      "d = (2*1 - 3(-2) + 6) / (2 + 3)",
+      "d = ildiz(2^2 + (-3)^2) / 14",
+      "d = |2*1 - 3(-2) + 6|"
+    ],
+    "correct": "d = |2*1 - 3(-2) + 6| / ildiz(2^2 + (-3)^2)"
+  },
+  {
+    "question": "54. 3x - 4y + 5 = 0 to'g'ri chiziqga parallel bo'lgan to'g'ri chiziqning tenglamasi qanday bo'lishi mumkin?",
+    "options": [
+      "3x - 4y - 10 = 0",
+      "-4x + 3y - 5 = 0",
+      "3x + 4y + 5 = 0",
+      "4x + 3y + 5 = 0"
+    ],
+    "correct": "3x - 4y - 10 = 0"
+  },
+  {
+    "question": "55. a(2,-1,3) va b(0,-4,-2) vektorlarining vektor ko'paytmasi qanday?",
+    "options": [
+      "{14; 4; -8}",
+      "{-14; 4; 8}",
+      "{14; -4; -8}",
+      "{10; 4; -8}"
+    ],
+    "correct": "{14; 4; -8}"
+  },
+  {
+    "question": "56. x² + y² - 6x + 4y - 3 = 0 aylana tenglamasining markazi koordinatalar sistemasini qayerida joylashgan?",
+    "options": [
+      "To'rtinchi chorakda (3; -2)",
+      "Birinchi chorakda (3; 2)",
+      "Uchinchi chorakda (-3; -2)",
+      "Ikkinchi chorakda (-3; 2)"
+    ],
+    "correct": "To'rtinchi chorakda (3; -2)"
+  },
+  {
+    "question": "57. A(2,3) va B(5,-7) nuqtalar orqali o'tuvchi to'g'ri chiziqning burchak koeffitsiyenti qanday hisoblanadi?",
+    "options": [
+      "k = (-7 - 3) / (5 - 2) = -10/3",
+      "k = (5 - 2) / (-7 - 3) = -3/10",
+      "k = (-7 + 3) / (5 + 2) = -4/7",
+      "k = -7 - 3 = -10"
+    ],
+    "correct": "k = (-7 - 3) / (5 - 2) = -10/3"
+  },
+  {
+    "question": "58. a(2, -1), b(-3, 4) vektorlari uchun 3a - 2b vektorining koordinatalari?",
+    "options": [
+      "{12; -11}",
+      "{-12; 11}",
+      "{0; 5}",
+      "{12; 5}"
+    ],
+    "correct": "{12; -11}"
+  },
+  {
+    "question": "59. x²/16 + y²/9 = 1 ellipsining fokuslari orasidagi masofasi qanday topiladi?",
+    "options": [
+      "2c = 2 * ildiz(16 - 9) = 2ildiz(7)",
+      "2a = 8",
+      "2c = 2 * ildiz(16 + 9) = 10",
+      "c = ildiz(16 - 9) = ildiz(7)"
+    ],
+    "correct": "2c = 2 * ildiz(16 - 9) = 2ildiz(7)"
+  },
+  {
+    "question": "60. 3x + 4y - 5 = 0 to'g'ri chiziqga perpendikulyar bo'lgan to'g'ri chiziqning tenglamasi?",
+    "options": [
+      "4x - 3y + C = 0",
+      "3x - 4y + C = 0",
+      "4x + 3y + C = 0",
+      "3x + 4y + C = 0"
+    ],
+    "correct": "4x - 3y + C = 0"
+  },
+  {
+    "question": "61. y² = 8x parabolani fokusidan direktrisagacha bo'lgan masofa qanday?",
+    "options": [
+      "4",
+      "2",
+      "1",
+      "8"
+    ],
+    "correct": "4"
+  },
+  {
+    "question": "62. A(1, 2, 3), B(4, 5, 6), C(7, 8, 9) nuqtalari uchun ABC uchburchak yuzini hisoblash qaysi usul qo'llaniladi?",
+    "options": [
+      "Vektor ko'paytma moduli yarmini hisoblash usuli",
+      "Determinantni nolga tenglashtirish usuli",
+      "Skalyar ko'paytma usuli",
+      "Aralash ko'paytma usuli"
+    ],
+    "correct": "Vektor ko'paytma moduli yarmini hisoblash usuli"
+  },
+  {
+    "question": "63. a(-2, -1), b(3, 4) vektorlari uchun 3a - 2b vektorining koordinatalari?",
+    "options": [
+      "{-12; -11}",
+      "{0; -5}",
+      "{12; -11}",
+      "{-12; 11}"
+    ],
+    "correct": "{-12; -11}"
+  },
+  {
+    "question": "64. x²/9 + y²/4 = 1 ellipsini fokuslari orasidagi masofa qanday?",
+    "options": [
+      "2c = 2 * ildiz(9 - 4) = 2ildiz(5)",
+      "ildiz(5)",
+      "6",
+      "10"
+    ],
+    "correct": "2c = 2 * ildiz(9 - 4) = 2ildiz(5)"
+  },
+  {
+    "question": "65. 3x + 4y - 5 = 0 to'g'ri chiziq bilan perpendikulyar bo'lgan to'g'ri chiziqning tenglamasi?",
+    "options": [
+      "4x - 3y + C = 0",
+      "3x - 4y + C = 0",
+      "4x + 3y + C = 0",
+      "3x + 4y + C = 0"
+    ],
+    "correct": "4x - 3y + C = 0"
+  },
+  {
+    "question": "66. A(1; 2), B(4; 6) nuqtalari orqali o'tuvchi to'g'ri chiziqning tenglamasi?",
+    "options": [
+      "4x - 3y + 2 = 0",
+      "4x + 3y - 10 = 0",
+      "3x - 4y + 5 = 0",
+      "4x - 3y - 2 = 0"
+    ],
+    "correct": "4x - 3y + 2 = 0"
+  },
+  {
+    "question": "67. a(2, -1, 3) vektorga parallel birlik vector?",
+    "options": [
+      "{2/ildiz(14); -1/ildiz(14); 3/ildiz(14)}",
+      "{2/14; -1/14; 3/14}",
+      "{1; -1; 1}",
+      "{-2/ildiz(14); 1/ildiz(14); -3/ildiz(14)}"
+    ],
+    "correct": "{2/ildiz(14); -1/ildiz(14); 3/ildiz(14)}"
+  },
+  {
+    "question": "68. To'g'ri chiziqning umumiy tenglamasi qanday ko'rinishi?",
+    "options": [
+      "Ax + By + C = 0",
+      "y = kx + b",
+      "x/a + y/b = 1",
+      "A(x-x0) + B(y-y0) = 0"
+    ],
+    "correct": "Ax + By + C = 0"
+  },
+  {
+    "question": "69. Vektorlar uchun skalyar ko'paytmasining xossalaridan qaysi biri to'g'ri?",
+    "options": [
+      "a · b = b · a",
+      "a · b = - (b · a)",
+      "a · b = |a| · |b|",
+      "a · b = 0 faqat a parallel b bo'lganda"
+    ],
+    "correct": "a · b = b · a"
+  },
+  {
+    "question": "70. a(2,-1) va b(3,4) vektorlari uchun 2a + 3b vektorining koordinatalari qanday?",
+    "options": [
+      "{13; 10}",
+      "{5; 3}",
+      "{12; 10}",
+      "{13; 2}"
+    ],
+    "correct": "{13; 10}"
+  },
+  {
+    "question": "71. a(2, 5, -1) hamda b(-3, 0, 4) vektorlari uchun a + 2b vektorining koordinatalari qanday?",
+    "options": [
+      "{-4; 5; 7}",
+      "{-1; 5; 3}",
+      "{-4; 5; 3}",
+      "{-4; 10; 7}"
+    ],
+    "correct": "{-4; 5; 7}"
+  },
+  {
+    "question": "72. 5x - 12y + 26 = 0 to'g'ri chiziqni normal tenglamasi qanday?",
+    "options": [
+      "-5/13x + 12/13y - 2 = 0",
+      "5/13x - 12/13y + 2 = 0",
+      "-5/13x - 12/13y - 2 = 0",
+      "5x - 12y + 26 = 0"
+    ],
+    "correct": "-5/13x + 12/13y - 2 = 0"
+  },
+  {
+    "question": "73. 5x + 12y + 26 = 0 to'g'ri chiziqni normal tenglamasi qanday?",
+    "options": [
+      "-5/13x - 12/13y - 2 = 0",
+      "5/13x + 12/13y + 2 = 0",
+      "-5/13x + 12/13y - 2 = 0",
+      "3x + 4y + 5 = 0"
+    ],
+    "correct": "-5/13x - 12/13y - 2 = 0"
+  },
+  {
+    "question": "74. A(1, -2) va B(3, 4) nuqtalarini 1:3 nisbatda bo'luvchi nuqta koordinatalari qanday?",
+    "options": [
+      "(1.5; -0.5)",
+      "(2; 1)",
+      "(1.5; 0.5)",
+      "(1.25; -1)"
+    ],
+    "correct": "(1.5; -0.5)"
+  },
+  {
+    "question": "75. x² + y² - 8x + 6y + 9 = 0 aylana radiusi qanday hisoblanadi?",
+    "options": [
+      "R = ildiz(4^2 + (-3)^2 - 9) = 4",
+      "R = ildiz(8^2 + 6^2 - 9) = ildiz(91)",
+      "R = 9",
+      "R = 3"
+    ],
+    "correct": "R = ildiz(4^2 + (-3)^2 - 9) = 4"
+  },
+  {
+    "question": "76. a(1, -3, 2) va b(4, 0, -1) vektorlari orasidagi burchakni kosinusi qanday?",
+    "options": [
+      "cos(phi) = (1*4 + 0 + 2*(-1)) / (ildiz(14) * ildiz(17)) = 2 / ildiz(238)",
+      "cos(phi) = 2",
+      "cos(phi) = 6 / ildiz(238)",
+      "cos(phi) = 0"
+    ],
+    "correct": "cos(phi) = (1*4 + 0 + 2*(-1)) / (ildiz(14) * ildiz(17)) = 2 / ildiz(238)"
+  },
+  {
+    "question": "77. 2x - y + 3 = 0 hamda 4x - 2y + 5 = 0 to'g'ri chiziqlar orasidagi masofa qanday hisoblanadi?",
+    "options": [
+      "d = |3 - 5/2| / ildiz(2^2 + (-1)^2) = 1 / (2ildiz(5))",
+      "d = |3 - 5| / ildiz(4 + 1) = 2 / ildiz(5)",
+      "d = 0 (chunki ular kesishadi)",
+      "d = 1"
+    ],
+    "correct": "d = |3 - 5/2| / ildiz(2^2 + (-1)^2) = 1 / (2ildiz(5))"
+  },
+  {
+    "question": "78. a(3, -2) va b(1, 5) vektorlari uchun a ning b ga proyeksiyasi qanday hisoblanadi?",
+    "options": [
+      "Pr_b(a) = (3*1 + (-2)*5) / ildiz(1^2 + 5^2) = -7 / ildiz(26)",
+      "-7",
+      "ildiz(26)",
+      "-7 / 13"
+    ],
+    "correct": "Pr_b(a) = (3*1 + (-2)*5) / ildiz(1^2 + 5^2) = -7 / ildiz(26)"
+  },
+  {
+    "question": "79. x²/25 - y²/16 = 1 giperbolaning asimptotalari tenglamasi qanday?",
+    "options": [
+      "y = +-4/5x",
+      "y = +-5/4x",
+      "y = +-16/25x",
+      "y = +-4/3x"
+    ],
+    "correct": "y = +-4/5x"
+  },
+  {
+    "question": "80. 3x + 4y - 10 = 0 to'g'ri chiziq va koordinata o'qlari bilan chegaralangan uchburchak yuzasi?",
+    "options": [
+      "S = 0.5 * |a * b| = 0.5 * (10/3) * (10/4) = 25/6",
+      "25/3",
+      "10",
+      "12"
+    ],
+    "correct": "S = 0.5 * |a * b| = 0.5 * (10/3) * (10/4) = 25/6"
+  },
+  {
+    "question": "81. 2x - 3y + 6 = 0 to'g'ri chiziqga parallel va A(1, 4) nuqtadan o'tuvchi to'g'ri chiziq tenglamasi?",
+    "options": [
+      "2x - 3y + 10 = 0",
+      "2x - 3y - 10 = 0",
+      "3x + 2y - 11 = 0",
+      "2x - 3y + 6 = 0"
+    ],
+    "correct": "2x - 3y + 10 = 0"
+  },
+  {
+    "question": "82. a(3, -2, 5) hamda b(1, 4, -3) vektorlarining skalyar ko'paytmasi qanday?",
+    "options": [
+      "-20",
+      "20",
+      "0",
+      "-15"
+    ],
+    "correct": "-20"
+  },
+  {
+    "question": "83. To'g'ri chiziqni kesmalar bo'yicha tenglamasi qanday ko'rinishda bo'ladi?",
+    "options": [
+      "x/a + y/b = 1",
+      "y = kx + b",
+      "Ax + By + C = 0",
+      "x * cos(alpha) + y * sin(alpha) = p"
+    ],
+    "correct": "x/a + y/b = 1"
+  },
+  {
+    "question": "84. A(2, -1, 3) nuqtadan 4x - y + 2z - 5 = 0 tekislikgacha bo'lgan masofa qanday hisoblanadi?",
+    "options": [
+      "d = |4*2 - (-1) + 2*3 - 5| / ildiz(4^2 + (-1)^2 + 2^2) = 10 / ildiz(21)",
+      "10 / 21",
+      "ildiz(21)",
+      "10"
+    ],
+    "correct": "d = |4*2 - (-1) + 2*3 - 5| / ildiz(4^2 + (-1)^2 + 2^2) = 10 / ildiz(21)"
+  },
+  {
+    "question": "85. a(1, -2, 3) va b(4, 1, -1) vektorlar orasidagi burchakning kosinusi qanday hisoblanadi?",
+    "options": [
+      "cos(phi) = (1*4 + (-2)*1 + 3*(-1)) / (ildiz(14) * ildiz(18)) = -1 / ildiz(252)",
+      "cos(phi) = 1 / ildiz(252)",
+      "cos(phi) = 0",
+      "cos(phi) = -1"
+    ],
+    "correct": "cos(phi) = (1*4 + (-2)*1 + 3*(-1)) / (ildiz(14) * ildiz(18)) = -1 / ildiz(252)"
+  },
+  {
+    "question": "86. x² + y² - 6x + 10y + 30 = 0 aylana tenglamasi uchun markazi va radius qanday?",
+    "options": [
+      "Haqiqiy aylana mavjud emas (R^2 = -4 < 0), bu nuqtaviy yoki mavhum joylashish",
+      "Markaz (3; -5), R = 2",
+      "Markaz (-3; 5), R = 4",
+      "Markaz (3; -5), R = ildiz(30)"
+    ],
+    "correct": "Haqiqiy aylana mavjud emas (R^2 = -4 < 0), bu nuqtaviy yoki mavhum joylashish"
+  },
+  {
+    "question": "87. 2x - 3y + 6 = 0 to'g'ri chiziqga parallel va A(2, 3) nuqtadan o'tuvchi to'g'ri chiziq tenglamasi?",
+    "options": [
+      "2x - 3y + 5 = 0",
+      "2x - 3y - 5 = 0",
+      "3x + 2y - 12 = 0",
+      "4x - 6y + 10 = 0"
+    ],
+    "correct": "2x - 3y + 5 = 0"
+  },
+  {
+    "question": "88. a(2, -1), b(3, 4) vektorlari uchun 3a - b vektorining koordinatasi?",
+    "options": [
+      "{3; -7}",
+      "{3; 1}",
+      "{-3; 7}",
+      "{3; -1}"
+    ],
+    "correct": "{3; -7}"
+  },
+  {
+    "question": "89. y² = -12x parabola uchun fokus va direktrisasini toping?",
+    "options": [
+      "Fokus (-3; 0), direktrisa x = 3",
+      "Fokus (3; 0), direktrisa x = -3",
+      "Fokus (0; -3), direktrisa y = 3",
+      "Fokus (-6; 0), direktrisa x = 6"
+    ],
+    "correct": "Fokus (-3; 0), direktrisa x = 3"
+  },
+  {
+    "question": "90. 4x² + 9y² = 36 ellipsning yarim o'qlari qanday?",
+    "options": [
+      "a = 3, b = 2",
+      "a = 9, b = 4",
+      "a = 2, b = 3",
+      "a = 6, b = 6"
+    ],
+    "correct": "a = 3, b = 2"
+  },
+  {
+    "question": "91. a(1,0,-1), b(2,1,3) va c(0,-1,2) vektorlari uchun aralash ko'paytma [a,b,c] qiymati?",
+    "options": [
+      "-1",
+      "1",
+      "0",
+      "5"
+    ],
+    "correct": "-1"
+  },
+  {
+    "question": "92. y² = 4x parabola uchun fokus hamda direktrisa qanday?",
+    "options": [
+      "Fokus (1; 0), direktrisa x = -1",
+      "Fokus (2; 0), direktrisa x = -2",
+      "Fokus (0; 1), direktrisa y = -1",
+      "Fokus (-1; 0), direktrisa x = 1"
+    ],
+    "correct": "Fokus (1; 0), direktrisa x = -1"
+  },
+  {
+    "question": "93. a(3,-2) va b(1,4) vektorlari uchun a ning b ga proyeksiyasi qanday?",
+    "options": [
+      "-5 / ildiz(17)",
+      "5 / ildiz(17)",
+      "-5 / ildiz(13)",
+      "-5"
+    ],
+    "correct": "-5 / ildiz(17)"
+  },
+  {
+    "question": "94. 2x - y + 3 = 0 hamda x + 2y - 5 = 0 to'g'ri chiziqlar kesishish nuqtasi koordinatalari?",
+    "options": [
+      "(-0.2; 2.6)",
+      "(1; 2)",
+      "(-1; 1)",
+      "(0.2; 3.4)"
+    ],
+    "correct": "(-0.2; 2.6)"
+  },
+  {
+    "question": "95. x² + y² + 4x - 6y - 3 = 0 aylana uchun markaz bilan radius qanday?",
+    "options": [
+      "Markaz (-2; 3), R = 4",
+      "Markaz (2; -3), R = 4",
+      "Markaz (-2; 3), R = 16",
+      "Markaz (4; -6), R = 3"
+    ],
+    "correct": "Markaz (-2; 3), R = 4"
+  },
+  {
+    "question": "96. a(2,-1,3), b(1,4,-2) vektorlar uchun a × b vektor ko'paytma qanday?",
+    "options": [
+      "{-10; 7; 9}",
+      "{2; -4; -6}",
+      "{-10; -7; 9}",
+      "{10; -7; -9}"
+    ],
+    "correct": "{-10; 7; 9}"
+  },
+  {
+    "question": "97. 3x + 4y - 5 = 0 to'g'ri chiziqga perpendikulyar va (2,-1) nuqtadan o'tuvchi to'g'ri chiziq tenglamasi?",
+    "options": [
+      "4x - 3y - 11 = 0",
+      "4x - 3y + 11 = 0",
+      "4x + 3y - 5 = 0",
+      "3x - 4y - 10 = 0"
+    ],
+    "correct": "4x - 3y - 11 = 0"
+  },
+  {
+    "question": "98. 3x - 4y - 5 = 0 to'g'ri chiziqga perpendikulyar va (2,1) nuqtadan o'tuvchi to'g'ri chiziq tenglamasi?",
+    "options": [
+      "4x + 3y - 11 = 0",
+      "4x + 3y + 11 = 0",
+      "4x - 3y - 5 = 0",
+      "3x + 4y - 10 = 0"
+    ],
+    "correct": "4x + 3y - 11 = 0"
+  },
+  {
+    "question": "99. A(1,2), B(4,6), C(2,3) nuqtalar uchun ABC uchburchak yuzini hisoblash formulasi qanday?",
+    "options": [
+      "S = 0.5 * |(4-1)*(3-2) - (2-1)*(6-2)| = 0.5",
+      "S = 0.5 * |(4-1)*(6-2)| = 6",
+      "S = 1",
+      "S = 2"
+    ],
+    "correct": "S = 0.5 * |(4-1)*(3-2) - (2-1)*(6-2)| = 0.5"
+  },
+  {
+    "question": "100. Vektorlar uchun qaysi ifoda to'g'ri?",
+    "options": [
+      "a · b = b · a",
+      "a x b = b x a",
+      "[a, b, c] = [b, a, c]",
+      "a · b = - (b · a)"
+    ],
+    "correct": "a · b = b · a"
+  },
+  {
+    "question": "101. To‘g‘ri chiziqlar kesishish nuqtasi koordinatalarini toping? 3x-y-4=0, x+y-2=0",
+    "options": [
+      "(1.5; 0.5)",
+      "(1; 2)",
+      "(2; 0)",
+      "(1.5; -0.5)"
+    ],
+    "correct": "(1.5; 0.5)"
+  },
+  {
+    "question": "102. To‘g‘ri chiziqlar kesishgan nuqtasi koordinatalari? 3x-y-4=0, 2x+y-2=0",
+    "options": [
+      "(1.2; -0.4)",
+      "(1; -1)",
+      "(2; 2)",
+      "(1.5; 0.5)"
+    ],
+    "correct": "(1.2; -0.4)"
+  },
+  {
+    "question": "103. a(3, -2, 1) va b(-1, 4, 2) vektorlarning skalyar ko'paytmasi qanday hisoblanadi?",
+    "options": [
+      "3*(-1) + (-2)*4 + 1*2 = -9",
+      "3*(-1) - (-2)*4 + 1*2 = 7",
+      "ildiz(14) * ildiz(21)",
+      "0"
+    ],
+    "correct": "3*(-1) + (-2)*4 + 1*2 = -9"
+  },
+  {
+    "question": "104. To'g'ri chiziq ikki nuqtasi orqali o'tuvchi tenglamasi qanday ko'rinishda bo'ladi?",
+    "options": [
+      "(x - x1)/(x2 - x1) = (y - y1)/(y2 - y1)",
+      "y - y1 = k(x - x1)",
+      "Ax + By + C = 0",
+      "x/a + y/b = 1"
+    ],
+    "correct": "(x - x1)/(x2 - x1) = (y - y1)/(y2 - y1)"
+  },
+  {
+    "question": "105. A(2, -1, 3) nuqtadan 3x + 2y - z + 4 = 0 tekislikgacha bo'lgan masofa qanday hisoblanadi?",
+    "options": [
+      "d = |3*2 + 2*(-1) - 3 + 4| / ildiz(3^2 + 2^2 + (-1)^2) = 5 / ildiz(14)",
+      "5 / 14",
+      "ildiz(14)",
+      "5"
+    ],
+    "correct": "d = |3*2 + 2*(-1) - 3 + 4| / ildiz(3^2 + 2^2 + (-1)^2) = 5 / ildiz(14)"
+  },
+  {
+    "question": "106. a(2, -3, 1) vektorga perpendikulyar bo'lgan b vektorning koordinatalari qanday bo'lishi mumkin?",
+    "options": [
+      "{1; 1; 1}",
+      "{3; 2; 0}",
+      "{1; 2; 3}",
+      "{2; 3; 1}"
+    ],
+    "correct": "{1; 1; 1}"
+  },
+  {
+    "question": "107. x² + y² + 4x - 6y - 12 = 0 aylana tenglamasi uchun markaz hamda radius qanday?",
+    "options": [
+      "Markaz (-2; 3), R = 5",
+      "Markaz (2; -3), R = 5",
+      "Markaz (-2; 3), R = 25",
+      "Markaz (4; -6), R = 4"
+    ],
+    "correct": "Markaz (-2; 3), R = 5"
+  },
+  {
+    "question": "108. 3x + 2y - 6 = 0 to'g'ri chiziqqa parallel hamda B(-1, 4) nuqtadan o'tuvchi to'g'ri chiziq tenglamasi?",
+    "options": [
+      "3x + 2y - 5 = 0",
+      "3x + 2y + 5 = 0",
+      "2x - 3y + 14 = 0",
+      "3x - 2y + 11 = 0"
+    ],
+    "correct": "3x + 2y - 5 = 0"
+  },
+  {
+    "question": "109. a(3, -1), b(2, 4) vektorlari uchun 2a + 3b vektorning koordinatalari?",
+    "options": [
+      "{12; 10}",
+      "{5; 3}",
+      "{12; -10}",
+      "{8; 10}"
+    ],
+    "correct": "{12; 10}"
+  },
+  {
+    "question": "110. a(2, -1, 3), b(1, 0, -2), c(-1, 4, 1) vektorlar uchun aralash ko'paytma [a, b, c] qanday hisoblanadi?",
+    "options": [
+      "-13",
+      "13",
+      "-15",
+      "21"
+    ],
+    "correct": "-13"
+  },
+  {
+    "question": "111. a(2, -3, 5) va b(-1, 4, 2) vektorlarning vektor ko'paytmasi qanday hisoblanadi?",
+    "options": [
+      "{-26; -9; 5}",
+      "{26; 9; -5}",
+      "{-26; 9; 5}",
+      "{-14; -9; 5}"
+    ],
+    "correct": "{-26; -9; 5}"
+  },
+  {
+    "question": "112. 3x - 4y + 12 = 0 to'g'ri chiziqning normal tenglamasi ?",
+    "options": [
+      "-3/5x + 4/5y - 12/5 = 0",
+      "3/5x - 4/5y + 12/5 = 0",
+      "-3/5x - 4/5y - 12/5 = 0",
+      "3x - 4y + 12 = 0"
+    ],
+    "correct": "-3/5x + 4/5y - 12/5 = 0"
+  },
+  {
+    "question": "113. A(-1, 2, 3), B(2, -1, 5) va C(1, 3, -2) nuqtalari orqali o'tuvchi tekislik tenglamasi?",
+    "options": [
+      "19x + 11y + 5z - 18 = 0",
+      "19x - 11y + 5z + 18 = 0",
+      "19x + 11y - 5z - 12 = 0",
+      "x + y + z - 4 = 0"
+    ],
+    "correct": "19x + 11y + 5z - 18 = 0"
+  },
+  {
+    "question": "114. A(1, 0, 0), B(0, 1, 0) va C(0, 0, 1) nuqtalari orqali o'tuvchi tekislik tenglamasi?",
+    "options": [
+      "x + y + z - 1 = 0",
+      "x + y + z + 1 = 0",
+      "x - y + z = 0",
+      "x + y - z = 0"
+    ],
+    "correct": "x + y + z - 1 = 0"
+  },
+  {
+    "question": "115. A(0, 1, 2), B(1, -1, 1), C(2, 0, -1) nuqtalar orqali o'tuvchi tekislik tenglamasi?",
+    "options": [
+      "5x + y + 3z - 7 = 0",
+      "5x - y + 3z - 5 = 0",
+      "5x + y - 3z + 5 = 0",
+      "x + y + z - 3 = 0"
+    ],
+    "correct": "5x + y + 3z - 7 = 0"
+  },
+  {
+    "question": "116. A(-1, 2, 3), B(2, -1, 5), C(1, 3, -2) nuqtalar orqali o'tuvchi tekislik tenglamasi?",
+    "options": [
+      "19x + 11y + 5z - 18 = 0",
+      "19x - 11y + 5z + 18 = 0",
+      "19x + 11y - 5z - 12 = 0",
+      "x + y + z - 4 = 0"
+    ],
+    "correct": "19x + 11y + 5z - 18 = 0"
+  },
+  {
+    "question": "117. Dekart koordinatalaridan qutb koordinatalariga o'tish formulalari?",
+    "options": [
+      "rho = ildiz(x² + y²), tg(phi) = y/x",
+      "x = rho * cos(phi), y = rho * sin(phi)",
+      "rho = x + y, phi = y - x",
+      "x = rho/cos(phi), y = rho/sin(phi)"
+    ],
+    "correct": "rho = ildiz(x² + y²), tg(phi) = y/x"
+  },
+  {
+    "question": "118. Qutb koordinatalardan dekart koordinatalariga o'tish formulalari qanday?",
+    "options": [
+      "x = rho * cos(phi), y = rho * sin(phi)",
+      "rho = ildiz(x² + y²), tg(phi) = y/x",
+      "x = rho * sin(phi), y = rho * cos(phi)",
+      "x = rho / cos(phi)"
+    ],
+    "correct": "x = rho * cos(phi), y = rho * sin(phi)"
+  },
+  {
+    "question": "119. 5x - 12y + 26 = 0 va 10x - 24y + 52 = 0 to'g'ri chiziqlar orasidagi masofasi qanday hisoblanadi?",
+    "options": [
+      "d = 0 (chunki ular ustma-ust tushadi)",
+      "d = 2",
+      "d = 1",
+      "d = 26 / 13 = 2"
+    ],
+    "correct": "d = 0 (chunki ular ustma-ust tushadi)"
+  },
+  {
+    "question": "120. a(1, -2, 3) va b(4, 0, -1) vektorlari orasidagi burchakni kosinusi qanday?",
+    "options": [
+      "cos(phi) = (1*4 + 0 + 2*(-1)) / (ildiz(14) * ildiz(17)) = 2 / ildiz(238)",
+      "cos(phi) = 2",
+      "cos(phi) = 6 / ildiz(238)",
+      "cos(phi) = 0"
+    ],
+    "correct": "cos(phi) = (1*4 + 0 + 2*(-1)) / (ildiz(14) * ildiz(17)) = 2 / ildiz(238)"
+  },
+  {
+    "question": "121. 4x² + 9y² = 36 ellipsining ekssentrisiteti qanday topiladi?",
+    "options": [
+      "e = c / a = ildiz(9 - 4) / 3 = ildiz(5)/3",
+      "e = b / a = 2/3",
+      "e = ildiz(13)/3",
+      "e = 3/2"
+    ],
+    "correct": "e = c / a = ildiz(9 - 4) / 3 = ildiz(5)/3"
+  },
+  {
+    "question": "122. 4x² + 9y² = 36 ellipsining fokuslari orasidagi masofa qanday topiladi?",
+    "options": [
+      "2c = 2 * ildiz(9 - 4) = 2ildiz(5)",
+      "ildiz(5)",
+      "6",
+      "4"
+    ],
+    "correct": "2c = 2 * ildiz(9 - 4) = 2ildiz(5)"
+  },
+  {
+    "question": "123. 4x² + 9y² = 36 ellipsining direktrisasi qiymati nimaga teng?",
+    "options": [
+      "x = +-a / e = +-9 / ildiz(5)",
+      "x = +-3 / ildiz(5)",
+      "y = +-9 / ildiz(5)",
+      "x = +-5 / 9"
+    ],
+    "correct": "x = +-a / e = +-9 / ildiz(5)"
+  },
+  {
+    "question": "124. To‘g‘ri chiziqlar kesishish nuqtasi koordinatalari qanday topiladi? x+y=5, x-y=1",
+    "options": [
+      "(3; 2)",
+      "(4; 1)",
+      "(2; 3)",
+      "(1; 4)"
+    ],
+    "correct": "(3; 2)"
+  },
+  {
+    "question": "125. To‘g‘ri chiziqlar kesishish nuqtasi koordinatalari? 3x+y=5 , x-2y=4",
+    "options": [
+      "(2; -1)",
+      "(1; 2)",
+      "(-2; 1)",
+      "(2; 1)"
+    ],
+    "correct": "(2; -1)"
+  },
+  {
+    "question": "126. Ikki nuqta orasidagi masofasi formulasini toping:",
+    "options": [
+      "d = ildiz((x2-x1)^2 + (y2-y1)^2)",
+      "d = ildiz(x2^2 + y2^2)",
+      "d = (x2-x1) + (y2-y1)",
+      "d = |x2 - x1|"
+    ],
+    "correct": "d = ildiz((x2-x1)^2 + (y2-y1)^2)"
+  },
+  {
+    "question": "127. A(3; -1) , B(-2; 4) nuqtalar orasidagi masofa:",
+    "options": [
+      "ildiz((-2-3)^2 + (4-(-1))^2) = 5ildiz(2)",
+      "5",
+      "5ildiz(3)",
+      "50"
+    ],
+    "correct": "ildiz((-2-3)^2 + (4-(-1))^2) = 5ildiz(2)"
+  },
+  {
+    "question": "128. Vektorlarning skalyar ko'paytmasi formulasini toping:",
+    "options": [
+      "a · b = x1x2 + y1y2 + z1z2",
+      "a · b = |a| * |b| * sin(phi)",
+      "a · b = {x1x2; y1y2; z1z2}",
+      "a · b = x1y2 - x2y1"
+    ],
+    "correct": "a · b = x1x2 + y1y2 + z1z2"
+  },
+  {
+    "question": "129. a(2; 5) va b(-3; 1) vektorlarning skalyar ko'paytmasi:",
+    "options": [
+      "2*(-3) + 5*1 = -1",
+      "-11",
+      "1",
+      "0"
+    ],
+    "correct": "2*(-3) + 5*1 = -1"
+  },
+  {
+    "question": "130. Vektor ko'paytmasi formulasini toping:",
+    "options": [
+      "a x b = i*(y1z2-y2z1) - j*(x1z2-x2z1) + k*(x1y2-x2y1)",
+      "a x b = x1x2 + y1y2 + z1z2",
+      "a x b = |a|*|b|*cos(phi)",
+      "a x b = {x1+x2; y1+y2; z1+z2}"
+    ],
+    "correct": "a x b = i*(y1z2-y2z1) - j*(x1z2-x2z1) + k*(x1y2-x2y1)"
+  },
+  {
+    "question": "131. a(1; -3; 4) va b(3; -4; 2) vektorlarining vektor ko'paytmasi:",
+    "options": [
+      "{10; 10; 5}",
+      "{-10; 10; 5}",
+      "{10; -10; 5}",
+      "{10; 10; -5}"
+    ],
+    "correct": "{10; 10; 5}"
+  },
+  {
+    "question": "132. To'g'ri chiziqning burchak koeffisiyentli tenglamasi:",
+    "options": [
+      "y = kx + b",
+      "Ax + By + C = 0",
+      "x/a + y/b = 1",
+      "y - y1 = k(x - x1)"
+    ],
+    "correct": "y = kx + b"
+  },
+  {
+    "question": "133. y = 2x + 5 , y = -0.5x + 3 to'g'ri chiziqlar:",
+    "options": [
+      "O'zaro perpendikulyar (chunki k1 * k2 = -1)",
+      "O'zaro parallel",
+      "Kesishadi, lekin perpendikulyar emas",
+      "Ustma-ust tushadi"
+    ],
+    "correct": "O'zaro perpendikulyar (chunki k1 * k2 = -1)"
+  },
+  {
+    "question": "134. M(3; -2) nuqtadan o'tib, y = 4x + 1 ga parallel bo'lgan to'g'ri chiziq tenglamasi:",
+    "options": [
+      "4x - y - 14 = 0",
+      "4x - y + 14 = 0",
+      "x + 4y + 5 = 0",
+      "4x + y - 10 = 0"
+    ],
+    "correct": "4x - y - 14 = 0"
+  },
+  {
+    "question": "135. To'g'ri chiziqlarning perpendikulyarlik sharti qanday:",
+    "options": [
+      "k1 * k2 = -1 yoki A1A2 + B1B2 = 0",
+      "k1 = k2",
+      "A1/A2 = B1/B2",
+      "A1B2 - A2B1 = 0"
+    ],
+    "correct": "k1 * k2 = -1 yoki A1A2 + B1B2 = 0"
+  },
+  {
+    "question": "136. a(3; -2; 1), b(-2; 4; 5) va c(1; -3; 0) vektorlarning aralash ko'paytmasi:",
+    "options": [
+      "-23",
+      "23",
+      "-15",
+      "0"
+    ],
+    "correct": "-23"
+  },
+  {
+    "question": "137. Vektorning moduli formulasi:",
+    "options": [
+      "|a| = ildiz(x^2 + y^2 + z^2)",
+      "|a| = x + y + z",
+      "|a| = x^2 + y^2 + z^2",
+      "|a| = |x| + |y| + |z|"
+    ],
+    "correct": "|a| = ildiz(x^2 + y^2 + z^2)"
+  },
+  {
+    "question": "138. a(4; -3; 0) vektorining moduli:",
+    "options": [
+      "5",
+      "7",
+      "25",
+      "ildiz(7)"
+    ],
+    "correct": "5"
+  },
+  {
+    "question": "139. Kesmani berilgan nisbatda bo'lish formulasi λ=-1 bo'lsa:",
+    "options": [
+      "Formula ma'noga ega bo'lmaydi (maxraj nolga aylanadi)",
+      "Nuqta kesmaning o'rtasida bo'ladi",
+      "Nuqta koordinata boshida bo'ladi",
+      "Nisbat cheksiz bo'ladi"
+    ],
+    "correct": "Formula ma'noga ega bo'lmaydi (maxraj nolga aylanadi)"
+  },
+  {
+    "question": "140. Dekart kordinatalar sistemasida birlik vektorlar.",
+    "options": [
+      "Koordinata o'qlarining i, j, k ortlari",
+      "Ixtiyoriy parallel vektorlar",
+      "Faqat nol vektor",
+      "Moduli cheksiz vektorlar"
+    ],
+    "correct": "Koordinata o'qlarining i, j, k ortlari"
+  },
+  {
+    "question": "141. Vektorni yo'naltiruvchi kosinuslari quyidagilardan tashkil topadi:",
+    "options": [
+      "cos(alpha) = x/|a|, cos(beta) = y/|a|, cos(gamma) = z/|a|",
+      "cos(alpha) = |a|/x, cos(beta) = |a|/y",
+      "cos^2(alpha) + cos^2(beta) = 0",
+      "Faqat burchaklar qiymatidan"
+    ],
+    "correct": "cos(alpha) = x/|a|, cos(beta) = y/|a|, cos(gamma) = z/|a|"
+  },
+  {
+    "question": "142. a(6; -8) vektorga yo'nalishdosh bo’lgan birlik vektor:",
+    "options": [
+      "{0.6; -0.8}",
+      "{-0.6; 0.8}",
+      "{6; -8}",
+      "{1/6; -1/8}"
+    ],
+    "correct": "{0.6; -0.8}"
+  },
+  {
+    "question": "143. Vektorlarning kollinearlik sharti:",
+    "options": [
+      "x1/x2 = y1/y2 = z1/z2",
+      "x1x2 + y1y2 + z1z2 = 0",
+      "x1y2 - x2y1 = 1",
+      "a x b != 0"
+    ],
+    "correct": "x1/x2 = y1/y2 = z1/z2"
+  },
+  {
+    "question": "144. Tekislikdagi uchburchak yuzasini hisoblash formulasini toping:",
+    "options": [
+      "S = 0.5 * |(x2-x1)(y3-y1) - (x3-x1)(y2-y1)|",
+      "S = |AB| * |BC|",
+      "S = x1y2 + x2y3 + x3y1",
+      "S = 0.5 * (x1y1 + x2y2)"
+    ],
+    "correct": "S = 0.5 * |(x2-x1)(y3-y1) - (x3-x1)(y2-y1)|"
+  },
+  {
+    "question": "145. A(2;3), B(5;1) va C(0;-4) nuqtalar berilgan. ABC uchburchak yuzi:",
+    "options": [
+      "11.5",
+      "23",
+      "10",
+      "12.5"
+    ],
+    "correct": "11.5"
+  },
+  {
+    "question": "146. To'g'ri chiziqning umumiy tenglamasi ?",
+    "options": [
+      "Ax + By + C = 0",
+      "y = kx + b",
+      "x/a + y/b = 1",
+      "A(x-x0) + B(y-y0) = 0"
+    ],
+    "correct": "Ax + By + C = 0"
+  },
+  {
+    "question": "147. Ikki to'g'ri chiziqning kesishgan nuqtasini topish uchun qanday usul qo'llaniladi?",
+    "options": [
+      "Ularning tenglamalarini sistema qilib yechish usuli",
+      "Normal vektorlarni ko'paytirish usuli",
+      "Skalyar ko'paytma usuli",
+      "Masofani aniqlash usuli"
+    ],
+    "correct": "Ularning tenglamalarini sistema qilib yechish usuli"
+  },
+  {
+    "question": "148. a(2; -1; 3) va b(4; 0; -2) vektorlar orasidagi burchak cosinusini toping:",
+    "options": [
+      "cos(phi) = (2*4 + 0 + 3*(-2)) / (ildiz(14) * ildiz(20)) = 2 / ildiz(280)",
+      "0",
+      "1",
+      "2 / 14"
+    ],
+    "correct": "cos(phi) = (2*4 + 0 + 3*(-2)) / (ildiz(14) * ildiz(20)) = 2 / ildiz(280)"
+  },
+  {
+    "question": "149. Qanday tenglama aylana tenglamasini ifodalaydi?",
+    "options": [
+      "(x-a)^2 + (y-b)^2 = R^2",
+      "x^2/a^2 + y^2/b^2 = 1",
+      "y^2 = 2px",
+      "Ax + By + C = 0"
+    ],
+    "correct": "(x-a)^2 + (y-b)^2 = R^2"
+  },
+  {
+    "question": "150. A(1;2), B(4;6) va C(7;4) nuqtalar berilgan. AB tomonning o'rta nuqtasining koordinatalari:",
+    "options": [
+      "(2.5; 4)",
+      "(4; 4)",
+      "(2.5; 2)",
+      "(5.5; 5)"
+    ],
+    "correct": "(2.5; 4)"
+  },
+  {
+    "question": "151. y = 3x + 2 to'g'ri chiziqga perpendikulyar va M(1;5) nuqtadan o'tuvchi to'g'ri chiziq tenglamasi:",
+    "options": [
+      "x + 3y - 16 = 0",
+      "x - 3y + 14 = 0",
+      "3x - y + 2 = 0",
+      "x + 3y + 16 = 0"
+    ],
+    "correct": "x + 3y - 16 = 0"
+  },
+  {
+    "question": "152. Uchlari A(3;1), B(7;4) va C(4;5) bo'lgan uchburchakning AB tomonidagi mediananing uzunligi:",
+    "options": [
+      "2.5",
+      "5",
+      "ildiz(13)",
+      "3.5"
+    ],
+    "correct": "2.5"
+  },
+  {
+    "question": "153. a(3; -4) vektoriga qarama-qarshi yo'nalgan va birlik vektor:",
+    "options": [
+      "{-0.6; 0.8}",
+      "{0.6; -0.8}",
+      "{-3; 4}",
+      "{-0.6; -0.8}"
+    ],
+    "correct": "{-0.6; 0.8}"
+  },
+  {
+    "question": "154. 2x - 3y + 6 = 0 to'g'ri chiziqning kordinata o'qlaridan ajratgan kesmalari:",
+    "options": [
+      "a = -3, b = 2",
+      "a = 3, b = -2",
+      "a = 2, b = 3",
+      "a = -3, b = -2"
+    ],
+    "correct": "a = -3, b = 2"
+  },
+  {
+    "question": "155. A(2;-1), B(5;3), C(0;4) va D(-3;0) nuqtalar berilgan. Qaysi juft vektorlar kollinear?",
+    "options": [
+      "AB va CD (chunki AB={3;4} va CD={-3;-4})",
+      "AB va BC",
+      "AC va BD",
+      "Hech biri"
+    ],
+    "correct": "AB va CD (chunki AB={3;4} va CD={-3;-4})"
+  },
+  {
+    "question": "156. Qutb koordinatalarida θ = π/3 to'g'ri chiziq dekart koordinatalarida qanday ifodalanadi?",
+    "options": [
+      "y = ildiz(3)x",
+      "y = 1/ildiz(3)x",
+      "x = ildiz(3)y",
+      "y = x"
+    ],
+    "correct": "y = ildiz(3)x"
+  },
+  {
+    "question": "157. A(3; -1) va B(-2; 4) nuqtalar orasidagi masofa?",
+    "options": [
+      "5ildiz(2)",
+      "5",
+      "25",
+      "ildiz(10)"
+    ],
+    "correct": "5ildiz(2)"
+  },
+  {
+    "question": "158. Vektorlarning skalyar ko'paytmasi koordinatalar orqali hisoblanishi?",
+    "options": [
+      "a · b = x1x2 + y1y2 + z1z2",
+      "a · b = x1y2 + x2y1",
+      "a · b = {x1x2; y1y2}",
+      "a · b = x1/x2 + y1/y2"
+    ],
+    "correct": "a · b = x1x2 + y1y2 + z1z2"
+  },
+  {
+    "question": "159. a(2; 5; -1) va b(-3; 1; 4) vektorlarining skalyar ko'paytmasi:",
+    "options": [
+      "2*(-3) + 5*1 + (-1)*4 = -5",
+      "-1",
+      "5",
+      "-10"
+    ],
+    "correct": "2*(-3) + 5*1 + (-1)*4 = -5"
+  },
+  {
+    "question": "160. Vektor ko'paytma formulasini toping?",
+    "options": [
+      "a x b = i*(y1z2-y2z1) - j*(x1z2-x2z1) + k*(x1y2-x2y1)",
+      "a x b = x1x2 + y1y2 + z1z2",
+      "a x b = |a|*|b|*cos(phi)",
+      "a x b = x1y2 - x2y1"
+    ],
+    "correct": "a x b = i*(y1z2-y2z1) - j*(x1z2-x2z1) + k*(x1y2-x2y1)"
+  },
+  {
+    "question": "161. a(1; -2; 3) va b(4; 0; -1) vektorlarining vektor ko'paytmasi:",
+    "options": [
+      "{2; 13; 8}",
+      "{-2; 13; 8}",
+      "{2; -13; 8}",
+      "{2; 13; -8}"
+    ],
+    "correct": "{2; 13; 8}"
+  },
+  {
+    "question": "162. To'g‘ri chiziqning umumiy tenglamasi:",
+    "options": [
+      "Ax + By + C = 0",
+      "y = kx + b",
+      "x/a + y/b = 1",
+      "A(x-x0) + B(y-y0) = 0"
+    ],
+    "correct": "Ax + By + C = 0"
+  },
+  {
+    "question": "163. 3x - 4y + 12 = 0 to'g'ri chiziqning burchak koeffisiyenti:",
+    "options": [
+      "0.75",
+      "-0.75",
+      "3",
+      "-4"
+    ],
+    "correct": "0.75"
+  },
+  {
+    "question": "164. y = 2x + 3 hamda y = -0.5x - 1 to'g'ri chiziqlar:",
+    "options": [
+      "O'zaro perpendikulyar",
+      "O'zaro parallel",
+      "Ustma-ust tushadi",
+      "Kesishadi, lekin to'g'ri burchak hosil qilmaydi"
+    ],
+    "correct": "O'zaro perpendikulyar"
+  },
+  {
+    "question": "165. M(2; -3) nuqtadan o'tib, y = 4x - 2 to’g’ri chiziqga parallel bo'lgan to'g'ri chiziq:",
+    "options": [
+      "4x - y - 11 = 0",
+      "4x - y + 11 = 0",
+      "x + 4y + 10 = 0",
+      "4x + y - 5 = 0"
+    ],
+    "correct": "4x - y - 11 = 0"
+  },
+  {
+    "question": "166. a(3; -4; 0) vektorining moduli:",
+    "options": [
+      "5",
+      "7",
+      "25",
+      "ildiz(7)"
+    ],
+    "correct": "5"
+  },
+  {
+    "question": "167. Vektorining yo'naltiruvchi kosinuslari quyidagilardan iborat:",
+    "options": [
+      "cos(alpha) = x/|a|, cos(beta) = y/|a|, cos(gamma) = z/|a|",
+      "cos(alpha) = |a|/x, cos(beta) = |a|/y",
+      "cos^2(alpha) + cos^2(beta) = 0",
+      "Faqat koordinataga bog'liq sonlar"
+    ],
+    "correct": "cos(alpha) = x/|a|, cos(beta) = y/|a|, cos(gamma) = z/|a|"
+  },
+  {
+    "question": "168. a(6; -8) vektoriga qarama-qarshi yo'nalgan birlik vektor:",
+    "options": [
+      "{-0.6; 0.8}",
+      "{0.6; -0.8}",
+      "{-6; 8}",
+      "{-0.6; -0.8}"
+    ],
+    "correct": "{-0.6; 0.8}"
+  },
+  {
+    "question": "169. Vektorlarining komplanarlik sharti:",
+    "options": [
+      "Ularning aralash ko'paytmasi nolga teng bo'lishi kerak",
+      "Ularning skalyar ko'paytmasi nol bo'lishi",
+      "Ularning koordinatalari proporsional bo'lishi",
+      "Vektor ko'paytmasi birga teng bo'lishi"
+    ],
+    "correct": "Ularning aralash ko'paytmasi nolga teng bo'lishi kerak"
+  },
+  {
+    "question": "170. A(1;2), B(4;6) va C(2;-3) nuqtalar berilgan. ABC uchburchak yuzasi:",
+    "options": [
+      "6.5",
+      "13",
+      "7",
+      "5.5"
+    ],
+    "correct": "6.5"
+  },
+  {
+    "question": "171. Tekislikdagi to'g'ri chiziqning normal tenglamasi ?",
+    "options": [
+      "x * cos(alpha) + y * sin(alpha) - p = 0",
+      "y = kx + b",
+      "Ax + By + C = 0",
+      "x/a + y/b = 1"
+    ],
+    "correct": "x * cos(alpha) + y * sin(alpha) - p = 0"
+  },
+  {
+    "question": "172. Nuqtadan to'g'ri chiziqgacha bo'lgan masofa formulasini toping:",
+    "options": [
+      "d = |Ax0 + By0 + C| / ildiz(A^2 + B^2)",
+      "d = (Ax0 + By0 + C) / (A + B)",
+      "d = |Ax0 + By0| / ildiz(A^2 + B^2)",
+      "d = ildiz((x-x0)^2 + (y-y0)^2)"
+    ],
+    "correct": "d = |Ax0 + By0 + C| / ildiz(A^2 + B^2)"
+  },
+  {
+    "question": "173. M(2,-3) nuqtadan 4x - 3y + 5 = 0 to'g'ri chiziqgacha bo'lgan masofa:",
+    "options": [
+      "4.4",
+      "22",
+      "5",
+      "2"
+    ],
+    "correct": "4.4"
+  },
+  {
+    "question": "174. 3x + 4y - 7 = 0 hamda 6x + 8y + 1 = 0 to'g'ri chiziqlar?",
+    "options": [
+      "O'zaro parallel bo'ladi (chunki A1/A2 = B1/B2 != C1/C2)",
+      "O'zaro perpendikulyar bo'ladi",
+      "Kesishadi, perpendikulyar emas",
+      "Ustma-ust tushadi"
+    ],
+    "correct": "O'zaro parallel bo'ladi (chunki A1/A2 = B1/B2 != C1/C2)"
+  },
+  {
+    "question": "175. Markazi (2,-3) nuqtada va radiusi 5 bo'lgan aylana tenglamasi:",
+    "options": [
+      "(x-2)^2 + (y+3)^2 = 25",
+      "(x+2)^2 + (y-3)^2 = 25",
+      "(x-2)^2 + (y+3)^2 = 5",
+      "x^2 + y^2 - 4x + 6y = 0"
+    ],
+    "correct": "(x-2)^2 + (y+3)^2 = 25"
+  },
+  {
+    "question": "176. Ikkinchi tartibli egri chiziqlarning umumiy tenglamasi qanday?",
+    "options": [
+      "Ax^2 + 2Bxy + Cy^2 + 2Dx + 2Ey + F = 0",
+      "Ax + By + C = 0",
+      "x^2/a^2 + y^2/b^2 = 1",
+      "y = ax^2 + bx + c"
+    ],
+    "correct": "Ax^2 + 2Bxy + Cy^2 + 2Dx + 2Ey + F = 0"
+  },
+  {
+    "question": "177. 9x² + 4y² = 36 tenglama qanday egri chiziq?",
+    "options": [
+      "Ellips (chunki kanonik shakli x^2/4 + y^2/9 = 1)",
+      "Giperbola",
+      "Parabola",
+      "Aylana"
+    ],
+    "correct": "Ellips (chunki kanonik shakli x^2/4 + y^2/9 = 1)"
+  },
+  {
+    "question": "178. x² = 8y tenglama qanday egri chizig’ini ifodalaydi?",
+    "options": [
+      "Parabola",
+      "Ellips",
+      "Giperbola",
+      "Aylana"
+    ],
+    "correct": "Parabola"
+  },
+  {
+    "question": "179. 25x² - 9y² = 16 tenglama qanday egri chizig’ini ifodalaydi?",
+    "options": [
+      "Giperbola",
+      "Ellips",
+      "Parabola",
+      "Aylana"
+    ],
+    "correct": "Giperbola"
+  },
+  {
+    "question": "180. Ekssentrisiteti ε qanday ifodalanadi?",
+    "options": [
+      "e = c / a",
+      "e = a / c",
+      "e = b / a",
+      "e = p / 2"
+    ],
+    "correct": "e = c / a"
+  },
+  {
+    "question": "181. Qaysi egri chizig’ining ekssentrisiteti har doim 1 ga teng?",
+    "options": [
+      "Parabola",
+      "Ellips",
+      "Giperbola",
+      "Aylana"
+    ],
+    "correct": "Parabola"
+  },
+  {
+    "question": "182. 16x² + 25y² = 400 ellipsning katta yarim oʻqi?",
+    "options": [
+      "5",
+      "4",
+      "25",
+      "16"
+    ],
+    "correct": "5"
+  },
+  {
+    "question": "183. 9x² - 16y² = 144 giperbolaning haqiqiy yarim oʻqi:",
+    "options": [
+      "4",
+      "3",
+      "16",
+      "9"
+    ],
+    "correct": "4"
+  },
+  {
+    "question": "184. y² = -12x parabolasi qaysi yoʻnalishga qaragan?",
+    "options": [
+      "Chapga (Ox o'qining manfiy yo'nalishiga)",
+      "O'ngga (Ox o'qining musbat yo'nalishiga)",
+      "Yuqoriga (Oy o'qining musbat yo'nalishiga)",
+      "Pastga (Oy o'qining manfiy yo'nalishiga)"
+    ],
+    "correct": "Chapga (Ox o'qining manfiy yo'nalishiga)"
+  },
+  {
+    "question": "185. x²/25 + y²/9 = 1 ellipsning fokuslari orasidagi masofa:",
+    "options": [
+      "8 (chunki c = ildiz(25-9) = 4, fokal masofa 2c = 8)",
+      "4",
+      "6",
+      "10"
+    ],
+    "correct": "8 (chunki c = ildiz(25-9) = 4, fokal masofa 2c = 8)"
+  },
+  {
+    "question": "186. Asimptotalari y = ±(3/4)x boʻlgan giperbola tenglamasi qanday:",
+    "options": [
+      "x²/16 - y²/9 = 1",
+      "x²/9 - y²/16 = 1",
+      "x²/4 - y²/3 = 1",
+      "x²/16 + y²/9 = 1"
+    ],
+    "correct": "x²/16 - y²/9 = 1"
+  },
+  {
+    "question": "187. (x-2)²/9 + (y+1)²/4 = 1 ellipsning markazi:",
+    "options": [
+      "(2; -1)",
+      "(-2; 1)",
+      "(2; 1)",
+      "(-2; -1)"
+    ],
+    "correct": "(2; -1)"
+  },
+  {
+    "question": "188. x² + y² - 6x + 4y - 3 = 0 aylananing radiusi:",
+    "options": [
+      "4 (chunki R = ildiz(3^2 + (-2)^2 - (-3)) = ildiz(9+4+3) = 4)",
+      "ildiz(3)",
+      "3",
+      "16"
+    ],
+    "correct": "4 (chunki R = ildiz(3^2 + (-2)^2 - (-3)) = ildiz(9+4+3) = 4)"
+  },
+  {
+    "question": "189. 4x² + 9y² - 16x + 18y - 11 = 0 tenglama qanday egri chizig’ini ifodalaydi?",
+    "options": [
+      "Ellips",
+      "Giperbola",
+      "Parabola",
+      "Aylana"
+    ],
+    "correct": "Ellips"
+  },
+  {
+    "question": "190. 3x² - y² + 12x + 2y + 8 = 0 tenglama qanday egri chiziq?",
+    "options": [
+      "Giperbola",
+      "Ellips",
+      "Parabola",
+      "Aylana"
+    ],
+    "correct": "Giperbola"
+  },
+  {
+    "question": "191. Fazodagi nuqtadan tekislikkacha bo'lgan masofa formulasini toping:",
+    "options": [
+      "d = |Ax0 + By0 + Cz0 + D| / ildiz(A^2 + B^2 + C^2)",
+      "d = (Ax0 + By0 + Cz0 + D) / (A + B + C)",
+      "d = |Ax0 + By0| / ildiz(A^2 + B^2)",
+      "d = ildiz((x-x0)^2 + (y-y0)^2 + (z-z0)^2)"
+    ],
+    "correct": "d = |Ax0 + By0 + Cz0 + D| / ildiz(A^2 + B^2 + C^2)"
+  },
+  {
+    "question": "192. M(1,-2,3) nuqtadan 2x - y + 3z + 5 = 0 tekislikgacha bo'lgan masofa:",
+    "options": [
+      "18 / ildiz(14)",
+      "18 / 14",
+      "9 / ildiz(14)",
+      "0"
+    ],
+    "correct": "18 / ildiz(14)"
+  },
+  {
+    "question": "193. Ikki tekislikning parallelik sharti qanday:",
+    "options": [
+      "A1/A2 = B1/B2 = C1/C2 != D1/D2",
+      "A1A2 + B1B2 + C1C2 = 0",
+      "A1/A2 = B1/B2 = C1/C2 = D1/D2",
+      "A1B2 - A2B1 = 0"
+    ],
+    "correct": "A1/A2 = B1/B2 = C1/C2 != D1/D2"
+  },
+  {
+    "question": "194. 3x - 2y + 5z - 7 = 0 hamda -6x + 4y - 10z + 3 = 0 tekisliklar:",
+    "options": [
+      "O'zaro parallel bo'ladi",
+      "O'zaro perpendikulyar bo'ladi",
+      "Ustma-ust tushadi",
+      "Kesishadi, lekin parallel emas"
+    ],
+    "correct": "O'zaro parallel bo'ladi"
+  },
+  {
+    "question": "195. To'g'ri chiziqning fazodagi kanonik tenglamasini ko’rinishi:",
+    "options": [
+      "(x-x0)/l = (y-y0)/m = (z-z0)/n",
+      "x = x0 + lt, y = y0 + mt, z = z0 + nt",
+      "Ax + By + Cz + D = 0",
+      "y = kx + b, z = px + q"
+    ],
+    "correct": "(x-x0)/l = (y-y0)/m = (z-z0)/n"
+  },
+  {
+    "question": "196. M(2,-1,3) nuqtadan o'tuvchi va s = (4,0,-1) vektor parallel bo'lgan to'g'ri chiziq tenglamasi:",
+    "options": [
+      "(x-2)/4 = (y+1)/0 = (z-3)/(-1)",
+      "(x+2)/4 = (y-1)/0 = (z+3)/(-1)",
+      "4(x-2) - (z-3) = 0",
+      "(x-4)/2 = y/(-1) = (z+1)/3"
+    ],
+    "correct": "(x-2)/4 = (y+1)/0 = (z-3)/(-1)"
+  },
+  {
+    "question": "197. Fazodagi ikki to'g'ri chiziq orasidagi burchakni topish uchun:",
+    "options": [
+      "cos(phi) = |l1l2 + m1m2 + n1n2| / (ildiz(l1^2+m1^2+n1^2)*ildiz(l2^2+m2^2+n2^2))",
+      "cos(phi) = l1l2 + m1m2 + n1n2",
+      "sin(phi) = l1l2 + m1m2 + n1n2",
+      "tg(phi) = (l1l2 + m1m2) / n1n2"
+    ],
+    "correct": "cos(phi) = |l1l2 + m1m2 + n1n2| / (ildiz(l1^2+m1^2+n1^2)*ildiz(l2^2+m2^2+n2^2))"
+  },
+  {
+    "question": "198. Fazoda kesmaning o‘rta nuqtasi koordinatalari:",
+    "options": [
+      "x = (x1+x2)/2, y = (y1+y2)/2, z = (z1+z2)/2",
+      "x = x2 - x1, y = y2 - y1, z = z2 - z1",
+      "x = (x1-x2)/2, y = (y1-y2)/2, z = (z1-z2)/2",
+      "x = ildiz(x1*x2), y = ildiz(y1*y2), z = ildiz(z1*z2)"
+    ],
+    "correct": "x = (x1+x2)/2, y = (y1+y2)/2, z = (z1+z2)/2"
+  },
+  {
+    "question": "199. Agar kesmaning bir uchi A(1; 2; 3) va o'rtasi C(3; 3; 3) bo'lsa, ikkinchi uchi B koordinatalarini toping:",
+    "options": [
+      "(5; 4; 3)",
+      "(2; 1; 0)",
+      "(4; 5; 6)",
+      "(2; 2; 2)"
+    ],
+    "correct": "(5; 4; 3)"
+  },
+  {
+    "question": "200. M(1; 1) nuqtaning qutb koordinatalarini (ρ; φ) toping",
+    "options": [
+      "(ildiz(2); pi/4)",
+      "(1; pi/4)",
+      "(ildiz(2); pi/2)",
+      "(2; pi/4)"
+    ],
+    "correct": "(ildiz(2); pi/4)"
+  },
+  {
+    "question": "201. Dekart koordinatalaridan qutb koordinatalariga o'tishda radius (r) qanday topiladi?",
+    "options": [
+      "r = ildiz(x² + y²)",
+      "r = x + y",
+      "r = x² + y²",
+      "r = y / x"
+    ],
+    "correct": "r = ildiz(x² + y²)"
+  },
+  {
+    "question": "202. y0 ning qanday qiymatida M(4, y0) nuqta qutb koordinatalar sistemasida burchagi φ=π/4 bo'lgan to'g'ri chiziqda yotadi?",
+    "options": [
+      "4",
+      "2",
+      "-4",
+      "ildiz(2)"
+    ],
+    "correct": "4"
+  },
+  {
+    "question": "203. y² = 12x parabola fokusining koordinatasini ko'rsating:",
+    "options": [
+      "(3; 0)",
+      "(6; 0)",
+      "(0; 3)",
+      "(-3; 0)"
+    ],
+    "correct": "(3; 0)"
+  },
+  {
+    "question": "204. x²/25 + y²/16 = 1 ellipsning fokuslararo masofasini (2c) toping:",
+    "options": [
+      "6",
+      "3",
+      "8",
+      "10"
+    ],
+    "correct": "6"
+  },
+  {
+    "question": "205. x²/25 - y²/16 = 1 giperbolanining ekssentrisitetini (e) hisoblang:",
+    "options": [
+      "e = ildiz(41)/5",
+      "e = 5/4",
+      "e = 4/5",
+      "e = ildiz(41)/4"
+    ],
+    "correct": "e = ildiz(41)/5"
+  },
+  {
+    "question": "206. Ax + By + C = 0 umumiy tenglamada A = 0 bo'lsa (By + C = 0), bu to'g'ri chiziq koordinata tekisligida qanday joylashadi?",
+    "options": [
+      "Ox o'qiga parallel bo'ladi",
+      "Oy o'qiga parallel bo'ladi",
+      "Koordinata boshidan o'tadi",
+      "Oy o'qi bilan ustma-ust tushadi"
+    ],
+    "correct": "Ox o'qiga parallel bo'ladi"
+  },
+  {
+    "question": "207. Ax + By + C = 0 umumiy tenglamada B = 0 bo'lsa (Ax + C = 0), bu to'g'ri chiziq koordinata tekisligida qanday joylashadi?",
+    "options": [
+      "Oy o'qiga parallel bo'ladi",
+      "Ox o'qiga parallel bo'ladi",
+      "Koordinata boshidan o'tadi",
+      "Ox o'qi bilan ustma-ust tushadi"
+    ],
+    "correct": "Oy o'qiga parallel bo'ladi"
+  },
+  {
+    "question": "208. Ax + By + C = 0 umumiy tenglamada C = 0 bo'lsa (Ax + By = 0), bu to'g'ri chiziq koordinata tekisligida qanday joylashadi?",
+    "options": [
+      "Koordinata boshidan (0;0) o'tadi",
+      "Ox o'qiga parallel bo'ladi",
+      "Oy o'qiga parallel bo'ladi",
+      "Hech qaysi o'qni kesib o'tmaydi"
+    ],
+    "correct": "Koordinata boshidan (0;0) o'tadi"
+  },
+  {
+    "question": "209. Fazoda Ax + By + Cz + D = 0 umumiy tenglamada D = 0 bo'lsa, bu tekislik koordinata tekisligining qayeridan o'tadi?",
+    "options": [
+      "Koordinata boshidan (0;0;0) o'tadi",
+      "Oxy tekisligiga parallel bo'ladi",
+      "Oz o'qiga parallel bo'ladi",
+      "Hech qaysi o'qni kesib o'tmaydi"
+    ],
+    "correct": "Koordinata boshidan (0;0;0) o'tadi"
+  },
+  {
+    "question": "210. Parallelogrammning A(3;-5), B(5;-3), C(-1;3) uchlari berilgan. D uchining koordinatalarini toping:",
+    "options": [
+      "(-3; 1)",
+      "(-1; -1)",
+      "(3; -1)",
+      "(1; 1)"
+    ],
+    "correct": "(-3; 1)"
+  },
+  {
+    "question": "211. Parallelogrammning A(3;-5), B(5;-3), D(-3;1) uchlari berilgan. C uchining koordinatalarini aniqlang:",
+    "options": [
+      "(-1; 3)",
+      "(1; 1)",
+      "(3; -1)",
+      "(-3; 1)"
+    ],
+    "correct": "(-1; 3)"
+  },
+  {
+    "question": "212. M(2; -3; 4) nuqtadan Oxz koordinata tekisligigacha bo'lgan masofani toping:",
+    "options": [
+      "3",
+      "2",
+      "4",
+      "ildiz(29)"
+    ],
+    "correct": "3"
+  },
+  {
+    "question": "213. M(2; -3; 4) nuqtadan Oxy koordinata tekisligigacha bo'lgan masofani toping:",
+    "options": [
+      "4",
+      "2",
+      "3",
+      "ildiz(29)"
+    ],
+    "correct": "4"
+  },
+  {
+    "question": "214. M(2; -3; 4) nuqtadan Oyz koordinata tekisligigacha bo'lgan masofani toping:",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "ildiz(29)"
+    ],
+    "correct": "2"
+  },
+  {
+    "question": "215. Fazoda parallel ikki tekislik Ax + By + Cz + D1 = 0 va Ax + By + Cz + D2 = 0 orasidagi masofa qanday aniqlanadi?",
+    "options": [
+      "d = |D1 - D2| / ildiz(A² + B² + C²)",
+      "d = (D1 + D2) / ildiz(A² + B² + C²)",
+      "d = |D1 + D2| / (A + B + C)",
+      "d = |Ax0 + By0 + Cz0 + D1|"
+    ],
+    "correct": "d = |D1 - D2| / ildiz(A² + B² + C²)"
+  },
+  {
+    "question": "216. To'g'ri chiziqning burchak koeffitsiyenti k nimaga teng (alpha - Ox o'qining musbat yo'nalishi bilan hosil qilgan burchak)?",
+    "options": [
+      "k = tg(alpha)",
+      "k = sin(alpha)",
+      "k = cos(alpha)",
+      "k = ctg(alpha)"
+    ],
+    "correct": "k = tg(alpha)"
+  },
+  {
+    "question": "217. To'g'ri chiziqning burchak koeffitsiyentli tenglamasi qaysi?",
+    "options": [
+      "y = kx + b",
+      "Ax + By + C = 0",
+      "x/a + y/b = 1",
+      "y - y0 = k(x - x0)"
+    ],
+    "correct": "y = kx + b"
+  },
+  {
+    "question": "218. To'g'ri chiziqning kesmalar bo'yicha tenglamasi qaysi?",
+    "options": [
+      "x/a + y/b = 1",
+      "y = kx + b",
+      "Ax + By + C = 0",
+      "y - y0 = k(x - x0)"
+    ],
+    "correct": "x/a + y/b = 1"
+  },
+  {
+    "question": "219. 3x + 2y - 6 = 0 to'g'ri chiziq berilgan. Unga parallel va M(1; 1) nuqtadan o'tuvchi to'g'ri chiziq tenglamasini toping:",
+    "options": [
+      "3x + 2y - 5 = 0",
+      "3x + 2y + 5 = 0",
+      "2x - 3y + 1 = 0",
+      "x + y - 7 = 0"
+    ],
+    "correct": "3x + 2y - 5 = 0"
+  },
+  {
+    "question": "220. Koordinata boshidan 7x - 8y + 15 = 0 to’g’ri chiziqqa perpendikulyar tushirilgan. Shu perpendikulyar tenglamasi tuzilsin:",
+    "options": [
+      "8x + 7y = 0",
+      "7x - 8y = 0",
+      "7x + 8y = 0",
+      "8x - 7y = 0"
+    ],
+    "correct": "8x + 7y = 0"
+  },
+  {
+    "question": "221. 4x - 3y + 12 = 0 to'g'ri chiziq Oy o'qidan qanday b kesma ajratadi va uning burchak koeffitsiyenti k nimaga teng?",
+    "options": [
+      "k = 4/3, b = 4",
+      "k = -4/3, b = 4",
+      "k = 4/3, b = -4",
+      "k = 3/4, b = 3"
+    ],
+    "correct": "k = 4/3, b = 4"
+  },
+  {
+    "question": "222. M(3; -1) nuqtadan 5x + 12y - 16 = 0 to'g'ri chiziqqacha bo'lgan masofani hisoblang:",
+    "options": [
+      "1",
+      "13",
+      "2",
+      "3 / 13"
+    ],
+    "correct": "1"
+  },
+  {
+    "question": "223. x²/36 + y²/20 = 1 ellips fokuslari orasidagi masofani (2c) toping:",
+    "options": [
+      "8",
+      "4",
+      "16",
+      "12"
+    ],
+    "correct": "8"
+  },
+  {
+    "question": "224. x²/16 - y²/9 = 1 giperbolanining haqiqiy o'qi uzunligini (2a) ko'rsating:",
+    "options": [
+      "8",
+      "4",
+      "3",
+      "6"
+    ],
+    "correct": "8"
+  },
+  {
+    "question": "225. y² = -12x parabola direktrisasi tenglamasini ko'rsating:",
+    "options": [
+      "x = 3",
+      "x = -3",
+      "y = 3",
+      "x = 6"
+    ],
+    "correct": "x = 3"
+  },
+  {
+    "question": "226. a(3, -1, 2) va b(1, 4, -1) vektorlarining skalyar ko'paytmasini hisoblang:",
+    "options": [
+      "-3",
+      "5",
+      "1",
+      "-1"
+    ],
+    "correct": "-3"
+  },
+  {
+    "question": "227. Dekart koordinatalar estasida i, j, k birlik vektorlari (bazis) nima deb nomlanadi?",
+    "options": [
+      "Ortlar (i, j, k birlik vektorlari)",
+      "Nol vektorlar",
+      "O'zaro perpendikulyar vektorlar",
+      "Faqat nol bo'lmagan parallel vektorlar"
+    ],
+    "correct": "Ortlar (i, j, k birlik vektorlari)"
+  },
+  {
+    "question": "228. Vektorning moduli (uzunligi) nimaga teng?",
+    "options": [
+      "Koordinatalari kvadratlari yig'indisining kvadrat ildiziga",
+      "Koordinatalarining oddiy yig'indisiga",
+      "Boshlang'ich va oxirgi nuqtalari koordinatalari ko'paytmasiga",
+      "Yo'naltiruvchi kosinuslar ko'paytmasiga"
+    ],
+    "correct": "Koordinatalari kvadratlari yig'indisining kvadrat ildiziga"
+  },
+  {
+    "question": "229. Ikki vektor orasidagi burchak kosinusi ularning nimalari orqali aniqlanadi?",
+    "options": [
+      "Skalyar ko'paytmasini modullari ko'paytmasiga bo'lish orqali",
+      "Vektor ko'paytmasini skalyar ko'paytmaga bo'lish orqali",
+      "Koordinatalari ayirmalari ko'paytmasi orqali",
+      "Faqat modullari yig'indisi orqali"
+    ],
+    "correct": "Skalyar ko'paytmasini modullari ko'paytmasiga bo'lish orqali"
+  },
+  {
+    "question": "230. Vektorlarning vektor ko'paytmasidan nima hosil bo'lardi?",
+    "options": [
+      "Vektor",
+      "Skalyar miqdor (son)",
+      "Matritsa",
+      "Kesma"
+    ],
+    "correct": "Vektor"
+  },
+  {
+    "question": "231. a(2, -1, 3) va b(1, 4, -2) vektorlarining vektor ko'paytmasi a × b qanday bo'ladi?",
+    "options": [
+      "{-10; 7; 9}",
+      "{2; -4; -6}",
+      "{-10; -7; 9}",
+      "{10; -7; -9}"
+    ],
+    "correct": "{-10; 7; 9}"
+  },
+  {
+    "question": "232. Uchta vektorning aralash ko'paytmasidan nima hosil bo'ladi?",
+    "options": [
+      "Skalyar miqdor (son)",
+      "Vektor",
+      "Determinant ko'rinishidagi yangi vektor",
+      "Matritsa"
+    ],
+    "correct": "Skalyar miqdor (son)"
+  },
+  {
+    "question": "233. 5x - 12y + 26 = 0 tenglamani normal shaklga keltirish uchun qanday normalashtiruvchi ko'paytuvchiga (mu) ko'paytiriladi?",
+    "options": [
+      "mu = -1/13",
+      "mu = 1/13",
+      "mu = 1/5",
+      "mu = 1/12"
+    ],
+    "correct": "mu = -1/13"
+  },
+  {
+    "question": "234. 3x - 4y + 6 = 0 tenglamani normal shaklda yozing:",
+    "options": [
+      "-0.6x + 0.8y - 1.2 = 0",
+      "3/5x - 4/5y + 6/5 = 0",
+      "-3/5x + 4/5y - 6/5 = 0",
+      "3/5x + 4/5y - 6/5 = 0"
+    ],
+    "correct": "-0.6x + 0.8y - 1.2 = 0"
+  },
+  {
+    "question": "235. 3x - 4y - 6 = 0 tenglamani normal shaklda yozing:",
+    "options": [
+      "0.6x - 0.8y - 1.2 = 0",
+      "3/5x - 4/5y - 6/5 = 0",
+      "-3/5x + 4/5y + 6/5 = 0",
+      "-0.6x + 0.8y + 1.2 = 0"
+    ],
+    "correct": "0.6x - 0.8y - 1.2 = 0"
+  },
+  {
+    "question": "236. x²/a² - y²/b² = 1 giperbola asimptotalari tenglamasi qaysi?",
+    "options": [
+      "y = +-(b/a)x",
+      "y = kx + b",
+      "y = +-(a/b)x",
+      "x/a + y/b = 1"
+    ],
+    "correct": "y = +-(b/a)x"
+  },
+  {
+    "question": "237. y² = 2px parabola fokus masofasi (fokus koordinatasi) qanday topiladi?",
+    "options": [
+      "F(p/2; 0) nuqtada, ya'ni uchidan masofa p/2 ga teng",
+      "F(p; 0) nuqtada, ya'ni uchidan masofa p ga teng",
+      "F(0; p/2) nuqtada",
+      "F(p/4; 0) nuqtada"
+    ],
+    "correct": "F(p/2; 0) nuqtada, ya'ni uchidan masofa p/2 ga teng"
+  },
+  {
+    "question": "238. Ellips kanonik tenglamasi qaysi formula orqali hisoblanadi?",
+    "options": [
+      "x²/a² + y²/b² = 1",
+      "x²/a² - y²/b² = 1",
+      "y² = 2px",
+      "x² + y² = R^2"
+    ],
+    "correct": "x²/a² + y²/b² = 1"
+  },
+  {
+    "question": "239. Uchlari A(4; -5) va B(-8; 7) nuqtalarda bo'lgan AB kesmaning λ = 1 : 5 nisbatda bo'luvchi nuqtaning koordinatasini toping:",
+    "options": [
+      "(2; -3)",
+      "(-2; 3)",
+      "(3; -2)",
+      "(-4; 1)"
+    ],
+    "correct": "(2; -3)"
+  },
+  {
+    "question": "240. To'g'ri chiziqning umumiy tenglamasi qanday hisoblanadi?",
+    "options": [
+      "Ax + By + C = 0",
+      "y = kx + b",
+      "x/a + y/b = 1",
+      "A(x-x0) + B(y-y0) = 0"
+    ],
+    "correct": "Ax + By + C = 0"
+  },
+  {
+    "question": "241. Vektorlarining aralash ko'paytmasi qanday hisoblanadi?",
+    "options": [
+      "Uchta vektor koordinatalaridan tuzilgan uchinchi tartibli determinant qiymati orqali",
+      "Mos koordinatalarni ketma-ket ko'paytirish orqali",
+      "Vektorlar modullarini o'zaro ko'paytirish orqali",
+      "Ikki vektor ko'paytmasiga uchinchi vektorni qo'shish orqali"
+    ],
+    "correct": "Uchta vektor koordinatalaridan tuzilgan uchinchi tartibli determinant qiymati orqali"
+  },
+  {
+    "question": "242. Tekislikda dekart koordinatalar sistemasi nima?",
+    "options": [
+      "O'zaro perpendikulyar bo'lgan va bitta nuqtada kesishuvchi koordinata o'qlari sistemasi",
+      "Fazodagi ixtiyoriy parallel chiziqlar to'plami",
+      "Burchak va radius yordamida nuqtani aniqlovchi sistema",
+      "Faqat bitta koordinata o'qidan iborat sistema"
+    ],
+    "correct": "O'zaro perpendikulyar bo'lgan va bitta nuqtada kesishuvchi koordinata o'qlari sistemasi"
+  },
+  {
+    "question": "243. Ikki nuqta orasidagi masofani topish formulasi qaysi?",
+    "options": [
+      "d = ildiz((x2-x1)² + (y2-y1)²)",
+      "d = (x2-x1) + (y2-y1)",
+      "d = ildiz(x2² + y2²)",
+      "d = ildiz((x2+x1)² + (y2+y1)²)"
+    ],
+    "correct": "d = ildiz((x2-x1)² + (y2-y1)²)"
+  },
+  {
+    "question": "244. Qutb koordinatalar sistemasida nuqta qanday beriladi?",
+    "options": [
+      "Qutb radiusi rho va qutb burchagi phi orqali (rho; phi)",
+      "Faqatgina sanoq boshigacha bo'lgan masofa orqali",
+      "Absissa x va ordinata y koordinatalari orqali (x; y)",
+      "Uchta yo'naltiruvchi kosinuslar orqali"
+    ],
+    "correct": "Qutb radiusi rho va qutb burchagi phi orqali (rho; phi)"
+  },
+  {
+    "question": "245. To'g'ri chiziqning yo'naltiruvchi vektori s(2; -1; 3) bo'lsa, unga parallel bo'lgan boshqa to'g'ri chiziqning yo'naltiruvchi vektori qanday bo'lishi mumkin?",
+    "options": [
+      "{4; -2; 6}",
+      "{1; -1; 1}",
+      "{2; 1; 3}",
+      "{-2; 1; 3}"
+    ],
+    "correct": "{4; -2; 6}"
+  },
+  {
+    "question": "246. To'g'ri chiziqlarning parallellik alomati qaysi?",
+    "options": [
+      "A1/A2 = B1/B2 != C1/C2 yoki k1 = k2",
+      "A1B2 + A2B1 = 0",
+      "A1/B1 = A2/B2",
+      "A1A2 + B1B2 = 0 yoki k1 * k2 = -1"
+    ],
+    "correct": "A1/A2 = B1/B2 != C1/C2 yoki k1 = k2"
+  },
+  {
+    "question": "247. To'g'ri chiziq va tekislikning kesishish nuqtasi qanday aniqlanadi?",
+    "options": [
+      "To'g'ri chiziq va tekislik tenglamalarini sistema qilib yechish orqali",
+      "Ularning normal vektorlarini ko'paytirish orqali",
+      "Nuqtadan tekislikkacha masofani nolga tenglashtirish orqali",
+      "To'g'ri chiziq tenglamasini tekislik tenglamasiga bo'lish orqali"
+    ],
+    "correct": "To'g'ri chiziq va tekislik tenglamalarini sistema qilib yechish orqali"
+  },
+  {
+    "question": "248. M1(1; 2) va M2(3; 5) nuqtalardan o'tuvchi to'g'ri chiziq tenglamasini toping:",
+    "options": [
+      "3x - 2y + 1 = 0",
+      "3x + 2y - 7 = 0",
+      "2x - 3y + 4 = 0",
+      "3x - 2y - 1 = 0"
+    ],
+    "correct": "3x - 2y + 1 = 0"
+  },
+  {
+    "question": "249. To'g'ri chiziqning koordinata o'qlaridan ajratgan kesmalari bo'yicha tenglamasi qanday?",
+    "options": [
+      "x/a + y/b = 1",
+      "y = kx + b",
+      "(x-x1)/(x2-x1) = (y-y1)/(y2-y1)",
+      "Ax + By + C = 0"
+    ],
+    "correct": "x/a + y/b = 1"
+  },
+  {
+    "question": "250. M0(4; -2; 5) nuqtadan o'tib, s(3; 0; -1) yo'naltiruvchi vektorga ega to'g'ri chiziqning kanonik tenglamasini ko'rsating:",
+    "options": [
+      "(x-4)/3 = (y+2)/0 = (z-5)/(-1)",
+      "(x-3)/4 = y/(-2) = (z+1)/5",
+      "(x+4)/3 = (y-2)/0 = (z+5)/(-1)",
+      "3(x-4) - 1(z-5) = 0"
+    ],
+    "correct": "(x-4)/3 = (y+2)/0 = (z-5)/(-1)"
+  },
+  {
+    "question": "251. M0(2; -1) nuqtadan o'tib, n(3; 4) vektoriga perpendikulyar to'g'ri chiziq tenglamasini ko'rsating:",
+    "options": [
+      "3x + 4y - 2 = 0",
+      "3x + 4y + 2 = 0",
+      "4x + 3y - 5 = 0",
+      "3x - 4y + 2 = 0"
+    ],
+    "correct": "3x + 4y - 2 = 0"
+  },
+  {
+    "question": "252. A(3; 5; 1) va B(2; -6; 3) nuqtalar berilgan. AB kesmani 2x - 3y + 6z - 1 = 0 tekislik qanday nisbatda bo'ladi?",
+    "options": [
+      "4/39",
+      "-5/2",
+      "1/4",
+      "2/3"
+    ],
+    "correct": "4/39"
+  },
+  {
+    "question": "253. Aylana xossalaridan biri qaysi?",
+    "options": [
+      "Markazdan hamma nuqtalari teng uzoqlikda yotadi",
+      "Asimptotalarga ega bo'ladi",
+      "Fokuslari orasidagi masofa doim o'zgarmas bo'ladi",
+      "Ekssentrisiteti birdan katta bo'ladi"
+    ],
+    "correct": "Markazdan hamma nuqtalari teng uzoqlikda yotadi"
+  },
+  {
+    "question": "254. Giperbolaning kanonik tenglamasi qaysi?",
+    "options": [
+      "x^2/a^2 - y^2/b^2 = 1",
+      "y^2 = 2px",
+      "x^2 + y^2 = R^2",
+      "x^2/a^2 + y^2/b^2 = 1"
+    ],
+    "correct": "x^2/a^2 - y^2/b^2 = 1"
+  },
+  {
+    "question": "255. Tekislikning umumiy tenglamasi qanday?",
+    "options": [
+      "Ax + By + Cz + D = 0",
+      "x/a + y/b + z/c = 1",
+      "Ax + By + C = 0",
+      "z = kx + b"
+    ],
+    "correct": "Ax + By + Cz + D = 0"
+  },
+  {
+    "question": "256. To'g'ri chiziqning fazodagi parametrik tenglamasi qaysi?",
+    "options": [
+      "x = x0 + lt, y = y0 + mt, z = z0 + nt",
+      "y = kx + b",
+      "(x-x0)/l = (y-y0)/m = (z-z0)/n",
+      "Ax + By + Cz + D = 0"
+    ],
+    "correct": "x = x0 + lt, y = y0 + mt, z = z0 + nt"
+  },
+  {
+    "question": "257. Vektorlar komplanar bo'lish sharti qanday?",
+    "options": [
+      "Ularning aralash ko'paytmasi nolga teng bo'lishi kerak",
+      "Ularning modullari o'zaro teng bo'lishi kerak",
+      "Ularning koordinatalari yig'indisi nolga teng bo'lishi kerak",
+      "Ularning skalyar ko'paytmasi nolga teng bo'lishi kerak"
+    ],
+    "correct": "Ularning aralash ko'paytmasi nolga teng bo'lishi kerak"
+  },
+  {
+    "question": "258. Parabolaning kanonik tenglamasi qaysi?",
+    "options": [
+      "y^2 = 2px",
+      "x^2 + y^2 = R^2",
+      "x^2/a^2 - y^2/b^2 = 1",
+      "x^2/a^2 + y^2/b^2 = 1"
+    ],
+    "correct": "y^2 = 2px"
+  },
+  {
+    "question": "259. Giperbola asimptotalari tenglamasi qanday?",
+    "options": [
+      "y = +-(b/a)x",
+      "y^2 = 2px",
+      "y = +-(a/b)x",
+      "y = kx + b"
+    ],
+    "correct": "y = +-(b/a)x"
+  },
+  {
+    "question": "260. Vektorlar aralash ko'paytmasi qanday ifodalanadi?",
+    "options": [
+      "[a, b, c] = (a x b) · c",
+      "[a, b, c] = a + b + c",
+      "[a, b, c] = (a · b) x c",
+      "[a, b, c] = a · b · c"
+    ],
+    "correct": "[a, b, c] = (a x b) · c"
+  },
+  {
+    "question": "261. Ikki tekislikning kesishishidan nima hosil bo'ladi?",
+    "options": [
+      "To'g'ri chiziq",
+      "Vektor",
+      "Sirt",
+      "Nuqta"
+    ],
+    "correct": "To'g'ri chiziq"
+  },
+  {
+    "question": "262. A(3; 5; 1) va B(2; -6; 3) nuqtalar berilgan. AB kesmaning 2x - 3y + 5z - 1 = 0 tekislik qanday nisbatda bo'ladi?",
+    "options": [
+      "15/4",
+      "-15/4",
+      "3/5",
+      "4/15"
+    ],
+    "correct": "15/4"
+  },
+  {
+    "question": "263. M0(x0, y0) nuqtadan o'tuvchi va n(A, B) normal vektorga ega to'g'ri chiziqning tenglamasi qaysi?",
+    "options": [
+      "A(x - x0) + B(y - y0) = 0",
+      "x/a + y/b = 1",
+      "Ax + By + C = 0",
+      "y - y0 = k(x - x0)"
+    ],
+    "correct": "A(x - x0) + B(y - y0) = 0"
+  },
+  {
+    "question": "264. Ikki vektor orasidagi burchakni topish uchun qaysi formula ishlatiladi?",
+    "options": [
+      "cos(phi) = (a · b) / (|a| · |b|)",
+      "cos(phi) = a · b",
+      "sin(phi) = (a · b) / (|a| · |b|)",
+      "cos(phi) = |a x b| / (|a| · |b|)"
+    ],
+    "correct": "cos(phi) = (a · b) / (|a| · |b|)"
+  },
+  {
+    "question": "265. A(1,2,3) va B(4,-5,6) nuqtalar orasidagi masofa qanday hisoblanadi?",
+    "options": [
+      "ildiz((4-1)^2 + (-5-2)^2 + (6-3)^2)",
+      "ildiz((4+1)^2 + (-5+2)^2 + (6+3)^2)",
+      "(4-1) + (-5-2) + (6-3)",
+      "ildiz(4^2 + (-5)^2 + 6^2)"
+    ],
+    "correct": "ildiz((4-1)^2 + (-5-2)^2 + (6-3)^2)"
+  },
+  {
+    "question": "266. Aylana tenglamasining umumiy ko'rinishi qanday?",
+    "options": [
+      "x^2 + y^2 + Ax + By + C = 0",
+      "x^2/a^2 + y^2/b^2 = 1",
+      "Ax + By + C = 0",
+      "y = ax^2 + bx + C"
+    ],
+    "correct": "x^2 + y^2 + Ax + By + C = 0"
+  },
+  {
+    "question": "267. a(3,-2), b(1,4) vektorlari uchun 2a - 5b vektorining koordinatalari qanday?",
+    "options": [
+      "{1; -24}",
+      "{1; 16}",
+      "{-1; 24}",
+      "{11; -24}"
+    ],
+    "correct": "{1; -24}"
+  },
+  {
+    "question": "268. To'g'ri chiziqlarning perpendikulyarlik sharti qaysi?",
+    "options": [
+      "k1 · k2 = -1 yoki A1A2 + B1B2 = 0",
+      "k1 = k2 yoki A1/A2 = B1/B2",
+      "A1B2 - A2B1 = 0",
+      "k1 · k2 = 1"
+    ],
+    "correct": "k1 · k2 = -1 yoki A1A2 + B1B2 = 0"
+  },
+  {
+    "question": "270. Ellipsning yarim katta o'qi 5 ga, yarim kichik o'qi 3 ga teng bo'lsa, uning ekssentrisiteti qanday hisoblanadi?",
+    "options": [
+      "e = c / a = ildiz(5^2 - 3^2) / 5 = 4/5",
+      "e = b / a = 3/5",
+      "e = a / c = 5/4",
+      "e = c / b = 4/3"
+    ],
+    "correct": "e = c / a = ildiz(5^2 - 3^2) / 5 = 4/5"
+  },
+  {
+    "question": "271. Ellipsning yarim katta o'qi 3 ga teng va yarim kichik o'qi 2 ga teng bo'lsa, uning ekssentrisiteti qanday hisoblanadi?",
+    "options": [
+      "e = ildiz(3^2 - 2^2) / 3 = ildiz(5)/3",
+      "e = ildiz(3^2 + 2^2) / 3 = ildiz(13)/3",
+      "e = 2/3",
+      "e = 3/2"
+    ],
+    "correct": "e = ildiz(3^2 - 2^2) / 3 = ildiz(5)/3"
+  },
+  {
+    "question": "272. 2x - 3y + 6 = 0 to'g'ri chiziq hamda A(1,-2) nuqta orasidagi masofa qanday hisoblanadi?",
+    "options": [
+      "d = |2*1 - 3(-2) + 6| / ildiz(2^2 + (-3)^2)",
+      "d = (2*1 - 3(-2) + 6) / (2 + 3)",
+      "d = ildiz(2^2 + (-3)^2) / 14",
+      "d = |2*1 - 3(-2) + 6|"
+    ],
+    "correct": "d = |2*1 - 3(-2) + 6| / ildiz(2^2 + (-3)^2)"
+  },
+  {
+    "question": "273. 3x - 4y + 5 = 0 to'g'ri chiziqqa parallel bo'lgan boshqa to'g'ri chiziqning tenglamasi qanday bo'lishi mumkin?",
+    "options": [
+      "3x - 4y - 10 = 0",
+      "-4x + 3y - 5 = 0",
+      "3x + 4y + 5 = 0",
+      "4x + 3y + 5 = 0"
+    ],
+    "correct": "3x - 4y - 10 = 0"
+  },
+  {
+    "question": "274. a(2,-1,3) va b(0,-4,-2) vektorlarining vektor ko'paytmasi qanday?",
+    "options": [
+      "{14; 4; -8}",
+      "{-14; 4; 8}",
+      "{14; -4; -8}",
+      "{10; 4; -8}"
+    ],
+    "correct": "{14; 4; -8}"
+  },
+  {
+    "question": "275. To'g'ri chiziqning burchak koeffitsiyenti k = -2 bo'lib, M(1; 3) nuqtadan o'tsa, uning tenglamasi qanday bo'ladi?",
+    "options": [
+      "2x + y - 5 = 0",
+      "2x - y + 1 = 0",
+      "2x + y + 5 = 0",
+      "x + 2y - 7 = 0"
+    ],
+    "correct": "2x + y - 5 = 0"
+  },
+  {
+    "question": "276. 3x + 4y - 12 = 0 to'g'ri chiziqning koordinata o'qlaridan ajratgan kesmalari (a va b) nimaga teng?",
+    "options": [
+      "a = 4, b = 3",
+      "a = 3, b = 4",
+      "a = -4, b = -3",
+      "a = 12, b = 12"
+    ],
+    "correct": "a = 4, b = 3"
+  },
+  {
+    "question": "277. M(1; -2) nuqtadan 3x - 4y + 4 = 0 to'g'ri chiziqqacha bo'lgan masofani hisoblang:",
+    "options": [
+      "3",
+      "15",
+      "5",
+      "2.5"
+    ],
+    "correct": "3"
+  },
+  {
+    "question": "278. M(2; 3; -1) nuqtadan o'tib, n(1; -2; 4) normal vektorga ega tekislik tenglamasini toping:",
+    "options": [
+      "x - 2y + 4z + 8 = 0",
+      "x - 2y + 4z - 8 = 0",
+      "x - 2y + 4z + 4 = 0",
+      "2x + 3y - z - 8 = 0"
+    ],
+    "correct": "x - 2y + 4z + 8 = 0"
+  },
+  {
+    "question": "279. (x-1)/2 = (y+2)/-3 = z/4 to'g'ri chiziqning yo'naltiruvchi vektori koordinatalarini ko'rsating:",
+    "options": [
+      "{2; -3; 4}",
+      "{1; -2; 0}",
+      "{-2; 3; -4}",
+      "{2; 3; 4}"
+    ],
+    "correct": "{2; -3; 4}"
+  },
+  {
+    "question": "280. M(-1; 4) nuqtadan 3x - 4y - 12 = 0 to'g'ri chiziqqacha bo'lgan masofani hisoblashda masofa formulasining surati qanday bo'ladi?",
+    "options": [
+      "|3(-1) - 4(4) - 12| = 31",
+      "3(-1) - 4(4) - 12 = -31",
+      "3(-1) - (-4)4 - 12 = 3",
+      "ildiz(14) * ildiz(21)"
+    ],
+    "correct": "|3(-1) - 4(4) - 12| = 31"
+  },
+  {
+    "question": "281. To'g'ri chiziqning berilgan ikki nuqtasi (x1, y1) va (x2, y2) orqali o'tuvchi tenglamasi qanday ko'rinishda bo'ladi?",
+    "options": [
+      "(x - x1)/(x2 - x1) = (y - y1)/(y2 - y1)",
+      "y - y1 = k(x - x1)",
+      "Ax + By + C = 0",
+      "x/a + y/b = 1"
+    ],
+    "correct": "(x - x1)/(x2 - x1) = (y - y1)/(y2 - y1)"
+  },
+  {
+    "question": "282. M1(2; 3) va M2(5; 7) nuqtalardan o'tuvchi to'g'ri chiziq tenglamasini tuzing:",
+    "options": [
+      "4x - 3y + 1 = 0",
+      "4x - 3y - 1 = 0",
+      "3x - 4y + 6 = 0",
+      "4x + 3y - 17 = 0"
+    ],
+    "correct": "4x - 3y + 1 = 0"
+  },
+  {
+    "question": "283. x²/25 + y²/16 = 1 ellipsning fokus koordinatalarini toping:",
+    "options": [
+      "(+-3; 0)",
+      "(+-4; 0)",
+      "(0; +-3)",
+      "(+-ildiz(41); 0)"
+    ],
+    "correct": "(+-3; 0)"
+  },
+  {
+    "question": "284. x²/9 - y²/16 = 1 giperbolaning ekssentrisitetini hisoblang:",
+    "options": [
+      "e = 5/3",
+      "e = 5/4",
+      "e = 4/3",
+      "e = 3/5"
+    ],
+    "correct": "e = 5/3"
+  },
+  {
+    "question": "285. 3x + 2y - 6 = 0 to'g'ri chiziqqa parallel va M(1; 1) nuqtadan o'tuvchi to'g'ri chiziq tenglamasini toping:",
+    "options": [
+      "3x + 2y - 5 = 0",
+      "3x + 2y + 5 = 0",
+      "2x - 3y + 1 = 0",
+      "3x - 2y - 1 = 0"
+    ],
+    "correct": "3x + 2y - 5 = 0"
+  },
+  {
+    "question": "286. a(3, -1) va b(2, 4) vektorlari uchun 2a + 3b vektorining koordinatalari qanday bo'ladi?",
+    "options": [
+      "{12; 10}",
+      "{5; 3}",
+      "{8; 3}",
+      "{12; -10}"
+    ],
+    "correct": "{12; 10}"
+  },
+  {
+    "question": "287. a(2, -1, 3), b(1, 0, -2), c(-1, 4, 1) vektorlarining aralash ko'paytmasini [a, b, c] hisoblang:",
+    "options": [
+      "-13",
+      "-15",
+      "13",
+      "21"
+    ],
+    "correct": "-13"
+  },
+  {
+    "question": "288. y² = 16x parabola direktrisasi tenglamasini ko'rsating:",
+    "options": [
+      "x = -4",
+      "x = 4",
+      "y = -4",
+      "x = -8"
+    ],
+    "correct": "x = -4"
+  },
+  {
+    "question": "289. Ikki to'g'ri chiziq parallel bo'lishi uchun ularning A1x + B1y + C1 = 0 va A2x + B2y + C2 = 0 koeffitsiyentlari qanday munosabatda bo'lishi kerak?",
+    "options": [
+      "A1/A2 = B1/B2 != C1/C2",
+      "A1*A2 + B1*B2 = 0",
+      "A1/A2 = B1/B2 = C1/C2",
+      "A1*B2 - A2*B1 = 1"
+    ],
+    "correct": "A1/A2 = B1/B2 != C1/C2"
+  },
+  {
+    "question": "290. Ikki to'g'ri chiziq perpendikulyar bo'lishi uchun ularning koeffitsiyentlari qanday munosabatda bo'lishi kerak?",
+    "options": [
+      "A1*A2 + B1*B2 = 0",
+      "A1/A2 = -B1/B2",
+      "A1*B2 - A2*B1 = 0",
+      "A1/A2 = B1/B2"
+    ],
+    "correct": "A1*A2 + B1*B2 = 0"
+  },
+  {
+    "question": "291. M1(1; 2; 3) va M2(4; 5; 6) nuqtalar berilgan. M1M2 vektorining koordinatalarini toping:",
+    "options": [
+      "{3; 3; 3}",
+      "{5; 7; 9}",
+      "{-3; -3; -3}",
+      "{4; 10; 18}"
+    ],
+    "correct": "{3; 3; 3}"
+  },
+  {
+    "question": "292. M(2; -1; 4) nuqtadan o'tuvchi va s(3; 1; -2) yo'naltiruvchi vektorga ega to'g'ri chiziqning kanonik tenglamasini ko'rsating:",
+    "options": [
+      "(x - 2)/3 = (y + 1)/1 = (z - 4)/-2",
+      "(x + 2)/3 = (y - 1)/1 = (z + 4)/-2",
+      "3(x-2) + 1(y+1) - 2(z-4) = 0",
+      "(x - 3)/2 = (y - 1)/-1 = (z + 2)/4"
+    ],
+    "correct": "(x - 2)/3 = (y + 1)/1 = (z - 4)/-2"
+  },
+  {
+    "question": "293. Dekart koordinatalaridan qutb koordinatalariga o'tishning to'g'ri bog'liqlik formulalari qaysilar?",
+    "options": [
+      "rho = ildiz(x² + y²), tg(phi) = y/x",
+      "rho = x + y, phi = y - x",
+      "x = rho * cos(phi), y = rho * sin(phi)",
+      "x = rho/cos(phi), y = rho/sin(phi)"
+    ],
+    "correct": "rho = ildiz(x² + y²), tg(phi) = y/x"
+  },
+  {
+    "question": "294. Qutb koordinatalaridan Dekart koordinatalariga o'tish formulalari qanday ko'rinishda bo'ladi?",
+    "options": [
+      "x = rho * cos(phi), y = rho * sin(phi)",
+      "x = rho / cos(phi), y = rho / sin(phi)",
+      "x = rho * sin(phi), y = rho * cos(phi)",
+      "rho = ildiz(x² + y²), tg(phi) = y/x"
+    ],
+    "correct": "x = rho * cos(phi), y = rho * sin(phi)"
+  },
+  {
+    "question": "295. M(ildiz(3); 1) nuqtaning qutb koordinatalarini (rho; phi) aniqlang:",
+    "options": [
+      "(2; pi/6)",
+      "(2; pi/3)",
+      "(4; pi/6)",
+      "(ildiz(2); pi/4)"
+    ],
+    "correct": "(2; pi/6)"
+  },
+  {
+    "question": "296. Aylananing umumiy tenglamasi x² + y² - 4x + 6y - 3 = 0 berilgan. Uning markazi va radiusini toping:",
+    "options": [
+      "Markazi (2; -3), radiusi R = 4",
+      "Markazi (-2; 3), radiusi R = 4",
+      "Markazi (2; -3), radiusi R = 16",
+      "Markazi (4; -6), radiusi R = 3"
+    ],
+    "correct": "Markazi (2; -3), radiusi R = 4"
+  },
+  {
+    "question": "297. Ax + By + C = 0 umumiy tenglamada C = 0 bo'lsa (Ax + By = 0), bu to'g'ri chiziq koordinata tekisligining qayeridan o'tadi?",
+    "options": [
+      "Koordinata boshidan (0;0) o'tadi",
+      "Ox o'qiga parallel bo'ladi",
+      "Oy o'qiga parallel bo'ladi",
+      "Hech qaysi o'qni kesib o'tmaydi"
+    ],
+    "correct": "Koordinata boshidan (0;0) o'tadi"
+  },
+  {
+    "question": "298. 4x - 3y + 12 = 0 to'g'ri chiziqning burchak koeffitsiyenti (k) va Oy o'qidan ajratgan kesmasi (b) nimaga teng?",
+    "options": [
+      "k = 4/3, b = 4",
+      "k = -4/3, b = 4",
+      "k = 4/3, b = -4",
+      "k = 3/4, b = 3"
+    ],
+    "correct": "k = 4/3, b = 4"
+  },
+  {
+    "question": "299. 4x² + 9y² = 36 ellipsining direktrisalari tenglamalari nimaga teng?",
+    "options": [
+      "x = +-9 / ildiz(5)",
+      "x = +-3 / ildiz(5)",
+      "y = +-9 / ildiz(5)",
+      "x = +-5 / 9"
+    ],
+    "correct": "x = +-9 / ildiz(5)"
+  },
+  {
+    "question": "300. x + y = 5 va x - y = 1 to'g'ri chiziqlarining kesishish nuqtasi koordinatalarini toping:",
+    "options": [
+      "(3; 2)",
+      "(4; 1)",
+      "(1; 4)",
+      "(2; 3)"
+    ],
+    "correct": "(3; 2)"
+  },
+  {
+    "question": "301. Uchlari A(1; -3) va B(7; 5) nuqtalarda bo'lgan AB kesmaning o'rtasi koordinatalarini toping:",
+    "options": [
+      "(4; 1)",
+      "(3; 1)",
+      "(4; 2)",
+      "(3; 2)"
+    ],
+    "correct": "4; 1"
+  },
+  {
+    "question": "302. M1(2; 4) va M2(14; 10) nuqtalar berilgan. M1M2 kesmaning lambda = 1 : 2 nisbatda bo'luvchi M nuqtaning koordinatalarini aniqlang:",
+    "options": [
+      "(6; 6)",
+      "(8; 7)",
+      "(5; 5)",
+      "(6; 7)"
+    ],
+    "correct": "(6; 6)"
+  },
+  {
+    "question": "303. To'g'ri chiziqning burchak koeffitsiyenti k nimaga teng (alpha - to'g'ri chiziqning Ox o'qining musbat yo'nalishi bilan hosil qilgan burchagi)?",
+    "options": [
+      "k = tg(alpha)",
+      "k = sin(alpha)",
+      "k = cos(alpha)",
+      "k = ctg(alpha)"
+    ],
+    "correct": "k = tg(alpha)"
+  },
+  {
+    "question": "304. 2x - 3y + 6 = 0 to'g'ri chiziqning burchak koeffitsiyenti (k) va Oy o'qidan ajratgan kesmasi (b) qanday?",
+    "options": [
+      "k = 2/3, b = 2",
+      "k = -2/3, b = 2",
+      "k = 3/2, b = -2",
+      "k = 2/3, b = -2"
+    ],
+    "correct": "k = 2/3, b = 2"
+  },
+  {
+    "question": "305. Aylana markazi (-2; 3) nuqtada joylashgan va radiusi R = 4 bo'lsa, uning kanonik tenglamasini ko'rsating:",
+    "options": [
+      "(x + 2)² + (y - 3)² = 16",
+      "(x - 2)² + (y + 3)² = 16",
+      "(x + 2)² + (y - 3)² = 4",
+      "x² + y² = 16"
+    ],
+    "correct": "(x + 2)² + (y - 3)² = 16"
+  },
+  {
+    "question": "306. Markazi (3; -5) nuqtada bo'lib, radiusi R = 5 bo'lgan aylananing umumiy tenglamasini ko'rsating:",
+    "options": [
+      "x² + y² - 6x + 10y + 9 = 0",
+      "x² + y² + 6x - 10y + 9 = 0",
+      "x² + y² - 6x + 10y + 34 = 0",
+      "x² + y² - 6x + 10y + 25 = 0"
+    ],
+    "correct": "x² + y² - 6x + 10y + 9 = 0"
+  },
+  {
+    "question": "307. a(2,-1,3) va b(1,4,-2)ektorlarining vektor ko'paytmasi a × b qanday bo'ladi?",
+    "options": [
+      "{-10; 7; 9}",
+      "{2; -4; -6}",
+      "{-10; -7; 9}",
+      "{10; -7; -9}"
+    ],
+    "correct": "{-10; 7; 9}"
+  },
+  {
+    "question": "308. a(3, -2) va b(1, 4) Vektorlarining skalyar ko'paytmasini toping:",
+    "options": [
+      "-5",
+      "5",
+      "11",
+      "-11"
+    ],
+    "correct": "-5"
+  },
+  {
+    "question": "309. To'g'ri chiziqning burchak koeffitsiyenti k = -2 bo'lib, M(1; 3) nuqtadan o'tsa, uning tenglamasi qanday bo'ladi?",
+    "options": [
+      "2x + y - 5 = 0",
+      "2x - y + 1 = 0",
+      "2x + y + 5 = 0",
+      "x + 2y - 7 = 0"
+    ],
+    "correct": "2x + y - 5 = 0"
+  },
+  {
+    "question": "310. 3x + 4y - 12 = 0 to'g'ri chiziqning koordinata o'qlaridan ajratgan kesmalari (kesmalar bo'yicha tenglamasidagi a va b) nimaga teng?",
+    "options": [
+      "a = 4, b = 3",
+      "a = 3, b = 4",
+      "a = -4, b = -3",
+      "a = 12, b = 12"
+    ],
+    "correct": "a = 4, b = 3"
+  },
+  {
+    "question": "311. M(1; -2) nuqtadan 3x - 4y + 4 = 0 to'g'ri chiziqqacha bo'lgan masofani hisoblang:",
+    "options": [
+      "3",
+      "15",
+      "5",
+      "2.5"
+    ],
+    "correct": "3"
+  },
+  {
+    "question": "312. M(2; 3; -1) nuqtadan o'tib, n(1; -2; 4) normal vektorga ega tekislik tenglamasini toping:",
+    "options": [
+      "x - 2y + 4z + 8 = 0",
+      "x - 2y + 4z - 8 = 0",
+      "x - 2y + 4z + 4 = 0",
+      "2x + 3y - z - 8 = 0"
+    ],
+    "correct": "x - 2y + 4z + 8 = 0"
+  },
+  {
+    "question": "313. (x-1)/2 = (y+2)/-3 = z/4 to'g'ri chiziqning yo'naltiruvchi vektori koordinatalarini ko'rsating:",
+    "options": [
+      "{2; -3; 4}",
+      "{1; -2; 0}",
+      "{-2; 3; -4}",
+      "{2; 3; 4}"
+    ],
+    "correct": "{2; -3; 4}"
+  },
+  {
+    "question": "314. M(-1; 4) nuqtadan 3x - 4y - 12 = 0 to'g'ri chiziqqacha bo'lgan masofani hisoblashda surati qanday bo'ladi?",
+    "options": [
+      "|3(-1) - 4(4) - 12| = 31",
+      "3(-1) - 4(4) - 12 = -31",
+      "3(-1) - (-4)4 - 12 = 3",
+      "ildiz(14) * ildiz(21)"
+    ],
+    "correct": "|3(-1) - 4(4) - 12| = 31"
+  },
+  {
+    "question": "315. To'g'ri chiziqning berilgan ikki nuqtasi (x1, y1) va (x2, y2) orqali o'tuvchi tenglamasi qanday ko'rinishda bo'ladi?",
+    "options": [
+      "(x - x1)/(x2 - x1) = (y - y1)/(y2 - y1)",
+      "y - y1 = k(x - x1)",
+      "Ax + By + C = 0",
+      "x/a + y/b = 1"
+    ],
+    "correct": "(x - x1)/(x2 - x1) = (y - y1)/(y2 - y1)"
+  },
+  {
+    "question": "316. M1(2; 3) va M2(5; 7) nuqtalardan o'tuvchi to'g'ri chiziq tenglamasini tuzing:",
+    "options": [
+      "4x - 3y + 1 = 0",
+      "4x - 3y - 1 = 0",
+      "3x - 4y + 6 = 0",
+      "4x + 3y - 17 = 0"
+    ],
+    "correct": "4x - 3y + 1 = 0"
+  },
+  {
+    "question": "317. x²/25 + y²/16 = 1 ellipsning fokus koordinatalarini toping:",
+    "options": [
+      "(+-3; 0)",
+      "(+-4; 0)",
+      "(0; +-3)",
+      "(+-ildiz(41); 0)"
+    ],
+    "correct": "(+-3; 0)"
+  },
+  {
+    "question": "318. x²/9 - y²/16 = 1 giperbolaning ekssentrisitetini hisoblang:",
+    "options": [
+      "e = 5/3",
+      "e = 5/4",
+      "e = 4/3",
+      "e = 3/5"
+    ],
+    "correct": "e = 5/3"
+  },
+  {
+    "question": "319. 3x + 2y - 6 = 0 to'g'ri chiziqqa parallel va M(1; 1) nuqtadan o'tuvchi to'g'ri chiziq tenglamasini toping:",
+    "options": [
+      "3x + 2y - 5 = 0",
+      "3x + 2y + 5 = 0",
+      "2x - 3y + 1 = 0",
+      "3x - 2y - 1 = 0"
+    ],
+    "correct": "3x + 2y - 5 = 0"
+  },
+  {
+    "question": "320. a(3, -1) va b(2, 4) vektorlari uchun 2a + 3b vektorining koordinatalari qanday bo'ladi?",
+    "options": [
+      "{12; 10}",
+      "{5; 3}",
+      "{8; 3}",
+      "{12; -10}"
+    ],
+    "correct": "{12; 10}"
+  },
+  {
+    "question": "321. a(2, -1, 3), b(1, 0, -2), c(-1, 4, 1) vektorlarining aralash ko'paytmasini [a, b, c] hisoblang:",
+    "options": [
+      "-13",
+      "13",
+      "-15",
+      "21"
+    ],
+    "correct": "-13"
+  },
+  {
+    "question": "322. y² = 16x parabola direktrisasi tenglamasini ko'rsating:",
+    "options": [
+      "x = -4",
+      "x = 4",
+      "y = -4",
+      "x = -8"
+    ],
+    "correct": "x = -4"
+  },
+  {
+    "question": "323. Ikki to'g'ri chiziq parallel bo'lishi uchun ularning A1x + B1y + C1 = 0 va A2x + B2y + C2 = 0 koeffitsiyentlari qanday munosabatda bo'lishi kerak?",
+    "options": [
+      "A1/A2 = B1/B2 != C1/C2",
+      "A1*A2 + B1*B2 = 0",
+      "A1/A2 = B1/B2 = C1/C2",
+      "A1*B2 - A2*B1 = 1"
+    ],
+    "correct": "A1/A2 = B1/B2 != C1/C2"
+  },
+  {
+    "question": "324. Ikki to'g'ri chiziq perpendikulyar bo'lishi uchun ularning koeffitsiyentlari qanday munosabatda bo'lishi kerak?",
+    "options": [
+      "A1*A2 + B1*B2 = 0",
+      "A1/A2 = -B1/B2",
+      "A1*B2 - A2*B1 = 0",
+      "A1/A2 = B1/B2"
+    ],
+    "correct": "A1*A2 + B1*B2 = 0"
+  },
+  {
+    "question": "325. M1(1; 2; 3) va M2(4; 5; 6) nuqtalar berilgan. M1M2 vektorining koordinatalarini toping:",
+    "options": [
+      "{3; 3; 3}",
+      "{5; 7; 9}",
+      "{-3; -3; -3}",
+      "{4; 10; 18}"
+    ],
+    "correct": "{3; 3; 3}"
+  },
+  {
+    "question": "326. M(2; -1; 4) nuqtadan o'tuvchi va s(3; 1; -2) yo'naltiruvchi vektorga ega to'g'ri chiziqning kanonik tenglamasini ko'rsating:",
+    "options": [
+      "(x - 2)/3 = (y + 1)/1 = (z - 4)/-2",
+      "(x + 2)/3 = (y - 1)/1 = (z + 4)/-2",
+      "3(x-2) + 1(y+1) - 2(z-4) = 0",
+      "(x - 3)/2 = (y - 1)/-1 = (z + 2)/4"
+    ],
+    "correct": "(x - 2)/3 = (y + 1)/1 = (z - 4)/-2"
+  },
+  {
+    "question": "327. Dekart koordinatalaridan qutb koordinatalariga o'tishning to'g'ri bog'liqlik formulalari qaysilar?",
+    "options": [
+      "rho = ildiz(x² + y²), tg(phi) = y/x",
+      "rho = x + y, phi = y - x",
+      "x = rho * cos(phi), y = rho * sin(phi)",
+      "x = rho/cos(phi), y = rho/sin(phi)"
+    ],
+    "correct": "rho = ildiz(x² + y²), tg(phi) = y/x"
+  },
+  {
+    "question": "328. Qutb koordinatalaridan Dekart koordinatalariga o'tish formulalari qanday ko'rinishda bo'ladi?",
+    "options": [
+      "x = rho * cos(phi), y = rho * sin(phi)",
+      "x = rho / cos(phi), y = rho / sin(phi)",
+      "x = rho * sin(phi), y = rho * cos(phi)",
+      "rho = ildiz(x² + y²), tg(phi) = y/x"
+    ],
+    "correct": "x = rho * cos(phi), y = rho * sin(phi)"
+  },
+  {
+    "question": "329. M(ildiz(3); 1) nuqtaning qutb koordinatalarini (rho; phi) aniqlang:",
+    "options": [
+      "(2; pi/6)",
+      "(2; pi/3)",
+      "(4; pi/6)",
+      "(ildiz(2); pi/4)"
+    ],
+    "correct": "(2; pi/6)"
+  },
+  {
+    "question": "330. Aylananing umumiy tenglamasi x² + y² - 4x + 6y - 3 = 0 berilgan. Uning markazi va radiusini toping:",
+    "options": [
+      "Markazi (2; -3), radiusi R = 4",
+      "Markazi (-2; 3), radiusi R = 4",
+      "Markazi (2; -3), radiusi R = 16",
+      "Markazi (4; -6), radiusi R = 3"
+    ],
+    "correct": "Markazi (2; -3), radiusi R = 4"
+  },
+  {
+    "question": "331. Ax + By + C = 0 umumiy tenglamada C = 0 bo'lsa (Ax + By = 0), bu to'g'ri chiziq koordinata tekisligining qayeridan o'tadi?",
+    "options": [
+      "Koordinata boshidan (0;0) o'tadi",
+      "Ox o'qiga parallel bo'ladi",
+      "Oy o'qiga parallel bo'ladi",
+      "Hech qaysi o'qni kesib o'tmaydi"
+    ],
+    "correct": "Koordinata boshidan (0;0) o'tadi"
+  },
+  {
+    "question": "332. 4x - 3y + 12 = 0 to'g'ri chiziqning burchak koeffitsiyenti (k) va Oy o'qidan ajratgan kesmasi (b) nimaga teng?",
+    "options": [
+      "k = 4/3, b = 4",
+      "k = -4/3, b = 4",
+      "k = 4/3, b = -4",
+      "k = 3/4, b = 3"
+    ],
+    "correct": "k = 4/3, b = 4"
+  },
+  {
+    "question": "333. 4x² + 9y² = 36 ellipsining direktrisalari tenglamalari nimaga teng?",
+    "options": [
+      "x = +-9 / ildiz(5)",
+      "x = +-3 / ildiz(5)",
+      "y = +-9 / ildiz(5)",
+      "x = +-5 / 9"
+    ],
+    "correct": "x = +-9 / ildiz(5)"
+  },
+  {
+    "question": "334. x + y = 5 va x - y = 1 to'g'ri chiziqlarining kesishish nuqtasi koordinatalarini toping:",
+    "options": [
+      "(3; 2)",
+      "(4; 1)",
+      "(1; 4)",
+      "(2; 3)"
+    ],
+    "correct": "(3; 2)"
+  },
+  {
+    "question": "335. M0(x0, y0) nuqtadan o'tibh, yo'naltiruvchi s(l, m) vektorga ega to'g'ri chiziqning kanonik tenglamasi qaysi?",
+    "options": [
+      "(x - x0)/l = (y - y0)/m",
+      "l(x - x0) + m(y - y0) = 0",
+      "y - y0 = m/l * x",
+      "x/l + y/m = 1"
+    ],
+    "correct": "(x - x0)/l = (y - y0)/m"
+  },
+  {
+    "question": "336. A(2; 5) nuqtadan o'tib, normal vektori n(3; -4) bo'lgan to'g'ri chiziq tenglamasini ko'rsating:",
+    "options": [
+      "3x - 4y + 14 = 0",
+      "3x - 4y - 14 = 0",
+      "3x + 4y - 26 = 0",
+      "4x + 3y - 23 = 0"
+    ],
+    "correct": "3x - 4y + 14 = 0"
+  },
+  {
+    "question": "337. M1(x1, y1) va M2(x2, y2) nuqtalar orqali o'tuvchi to'g'ri chiziq burchak koeffitsiyenti k qaysi formula bilan topiladi?",
+    "options": [
+      "k = (y2 - y1) / (x2 - x1)",
+      "k = (x2 - x1) / (y2 - y1)",
+      "k = (y2 + y1) / (x2 + x1)",
+      "k = y2 - y1"
+    ],
+    "correct": "k = (y2 - y1) / (x2 - x1)"
+  },
+  {
+    "question": "338. Agar kesmani bo'lish nisbati lambda = -1 bo'lsa, koordinatalarni toping formulasida qanday holat yuz beradi?",
+    "options": [
+      "Formula ma'noga ega bo'lmaydi (maxraj nolga aylanadi)",
+      "Nuqta koordinata boshiga ko'chadi",
+      "Kesma cheksiz to'g'ri chiziqqa aylanadi",
+      "Nuqta koordinatasi cheksiz bo'ladi"
+    ],
+    "correct": "Formula ma'noga ega bo'lmaydi (maxraj nolga aylanadi)"
+  },
+  {
+    "question": "339. Dekart koordinatalar sistemasida i, j, k birlik vektorlari (bazis) nima deb nomlanadi?",
+    "options": [
+      "Ortlar (ya'ni koordinata o'qlarining birlik vektorlari)",
+      "Nol vektorlar",
+      "Kollinear vektorlar",
+      "Komplanar vektorlar"
+    ],
+    "correct": "Ortlar (ya'ni koordinata o'qlarining birlik vektorlari)"
+  },
+  {
+    "question": "340. a(x1, y1, z1) va b(x2, y2, z2) Vektorlarining perpendikulyarlik sharti qanday?",
+    "options": [
+      "x1x2 + y1y2 + z1z2 = 0",
+      "x1/x2 = y1/y2 = z1/z2",
+      "x1x2 + y1y2 + z1z2 = 1",
+      "x1y2 - x2y1 = 0"
+    ],
+    "correct": "x1x2 + y1y2 + z1z2 = 0"
+  },
+  {
+    "question": "341. Fazoda ikki to'g'ri chiziqning perpendikulyarlik sharti ularning yo'naltiruvchi vektorlari s1(l1, m1, n1) va s2(l2, m2, n2) orqali qanday yoziladi?",
+    "options": [
+      "l1l2 + m1m2 + n1n2 = 0",
+      "l1/l2 = m1/m2 = n1/n2",
+      "l1l2 + m1m2 + n1n2 = 1",
+      "l1m2 - l2m1 = 0"
+    ],
+    "correct": "l1l2 + m1m2 + n1n2 = 0"
+  },
+  {
+    "question": "342. y = k1x + b1 va y = k2x + b2 to'g'ri chiziqlar orasidagi burchak tg(phi) qanday topiladi?",
+    "options": [
+      "tg(phi) = |(k2 - k1) / (1 + k1 * k2)|",
+      "tg(phi) = |k1 + k2|",
+      "tg(phi) = |k1 - k2|",
+      "tg(phi) = |(k1 * k2) / (1 - k1 * k2)|"
+    ],
+    "correct": "tg(phi) = |(k2 - k1) / (1 + k1 * k2)|"
+  },
+  {
+    "question": "343. x²/16 + y²/7 = 1 ellipsning ekssentrisitetini (e) hisoblang:",
+    "options": [
+      "e = 3/4",
+      "e = 4/3",
+      "e = ildiz(7)/4",
+      "e = 9/16"
+    ],
+    "correct": "e = 3/4"
+  },
+  {
+    "question": "344. x²/16 - y²/9 = 1 giperbolanining asimptotalari tenglamalarini ko'rsating:",
+    "options": [
+      "y = +-3/4 * x",
+      "y = +-4/3 * x",
+      "y = +-9/16 * x",
+      "y = +-5/4 * x"
+    ],
+    "correct": "y = +-3/4 * x"
+  },
+  {
+    "question": "345. y² = -8x parabolaning fokus koordinatasini aniqlang:",
+    "options": [
+      "(-2; 0)",
+      "(-4; 0)",
+      "(2; 0)",
+      "(0; -2)"
+    ],
+    "correct": "(-2; 0)"
+  },
+  {
+    "question": "346. M(2; 5) nuqtadan o'tib, Oy o'qiga parallel bo'lgan to'g'ri chiziq tenglamasini toping:",
+    "options": [
+      "x = 2",
+      "y = 5",
+      "x - y + 3 = 0",
+      "y = 2"
+    ],
+    "correct": "x = 2"
+  },
+  {
+    "question": "347. M(2; 5) nuqtadan o'tib, Ox o'qiga parallel bo'lgan to'g'ri chiziq tenglamasini toping:",
+    "options": [
+      "y = 5",
+      "x = 2",
+      "x + y - 7 = 0",
+      "x = 5"
+    ],
+    "correct": "y = 5"
+  },
+  {
+    "question": "348. y = 3x + 2 to'g'ri chiziqqacha perpendikulyar va M(1; 5) nuqtadan o'tuvchi to'g'ri chiziq tenglamasini tuzing:",
+    "options": [
+      "x + 3y - 16 = 0",
+      "x - 3y + 14 = 0",
+      "3x - y + 2 = 0",
+      "x + 3y + 16 = 0"
+    ],
+    "correct": "x + 3y - 16 = 0"
+  },
+  {
+    "question": "349. 5x + 12y - 20 = 0 to'g'ri chiziqni normal ko'rinishga keltirish uchun qanday ko'paytuvchiga ko'paytiriladi?",
+    "options": [
+      "mu = 1/13",
+      "mu = 1/5",
+      "mu = 1/12",
+      "mu = -1/13"
+    ],
+    "correct": "mu = 1/13"
+  },
+  {
+    "question": "350. Uchlari A(2; 1), B(5; 5), C(2; 5) nuqtalarda bo'lgan to'g'ri burchakli uchburchakning yuzini toping:",
+    "options": [
+      "6",
+      "12",
+      "3",
+      "8"
+    ],
+    "correct": "6"
+  },
+  {
+    "question": "351. a(4, -2, 4) vektorining uzunligini (modulini) hisoblang:",
+    "options": [
+      "6",
+      "ildiz(24)",
+      "4",
+      "16"
+    ],
+    "correct": "6"
+  },
+  {
+    "question": "352. a(1, 2, -2) va b(3, 0, 4) vektorlarining skalyar ko'paytmasini toping:",
+    "options": [
+      "-5",
+      "11",
+      "-11",
+      "5"
+    ],
+    "correct": "-5"
+  },
+  {
+    "question": "353. Markazi (0; 0) nuqtada va radiusi R = ildiz(5) bo'lgan aylananing kanonik tenglamasini ko'rsating:",
+    "options": [
+      "x² + y² = 5",
+      "x² + y² = 25",
+      "x² + y² = ildiz(5)",
+      "x² - y² = 5"
+    ],
+    "correct": "x² + y² = 5"
+  },
+  {
+    "question": "354. x²/100 + y²/64 = 1 ellipsning fokal masofasini (2c) toping:",
+    "options": [
+      "12",
+      "6",
+      "16",
+      "20"
+    ],
+    "correct": "12"
+  },
+  {
+    "question": "355. x²/144 - y²/25 = 1 giperbolanining mavhum yarim o'qi uzunligini (b) ko'rsating:",
+    "options": [
+      "5",
+      "12",
+      "13",
+      "25"
+    ],
+    "correct": "5"
+  },
+  {
+    "question": "356. Uchlari A(1; 1), B(4; 1), C(1; 5) nuqtalarda bo'lgan uchburchakning yuzasa qancha bo'ladi?",
+    "options": [
+      "6",
+      "5.5",
+      "2.75",
+      "12"
+    ],
+    "correct": "6"
+  },
+  {
+    "question": "357. Tekislikdagi to'g'ri chiziqning normal tenglamasi formulasi qaysi javobda to'g'ri ko'rsatilgan?",
+    "options": [
+      "x * cos(alpha) + y * sin(alpha) - p = 0",
+      "y = kx + b",
+      "x/a + y/b = 1",
+      "Ax + By + C = 0"
+    ],
+    "correct": "x * cos(alpha) + y * sin(alpha) - p = 0"
+  },
+  {
+    "question": "358. 3x - 4y + 10 = 0 va 3x - 4y - 15 = 0 parallel to'g'ri chiziqlar orasidagi masofani hisoblang:",
+    "options": [
+      "5",
+      "1",
+      "25",
+      "2.5"
+    ],
+    "correct": "5"
+  },
+  {
+    "question": "359. a(2, 3, -1) va b(4, 6, -2) vektorlari o'zaro qanday vaziyatda joylashgan?",
+    "options": [
+      "O'zaro kollinear (parallel)",
+      "O'zaro perpendikulyar",
+      "Komplanar emas",
+      "O'zaro teng"
+    ],
+    "correct": "O'zaro kollinear (parallel)"
+  },
+  {
+    "question": "360. y² = 20x parabola direktrisasi tenglamasini ko'rsating:",
+    "options": [
+      "x = -5",
+      "x = 5",
+      "y = -5",
+      "x = -10"
+    ],
+    "correct": "x = -5"
+  },
+  {
+    "question": "361. Fazoda ikki tekislikning perpendikulyarlik sharti ularning normal vektorlari orqali qanday aniqlanadi?",
+    "options": [
+      "A1A2 + B1B2 + C1C2 = 0",
+      "A1/A2 = B1/B2 = C1/C2",
+      "A1A2 + B1B2 + C1C2 = 1",
+      "A1B2 - A2B1 = 0"
+    ],
+    "correct": "A1A2 + B1B2 + C1C2 = 0"
+  },
+  {
+    "question": "362. Ikki nuqta A(x1, y1, z1) va B(x2, y2, z2) orasidagi masofani toping formulasi fazoda qanday ko'rinishda bo'ladi?",
+    "options": [
+      "d = ildiz((x2 - x1)² + (y2 - y1)² + (z2 - z1)²)",
+      "d = (x2 - x1) + (y2 - y1) + (z2 - z1)",
+      "d = ildiz(x2² + y2² + z2²)",
+      "d = |x1x2 + y1y2 + z1z2|"
+    ],
+    "correct": "d = ildiz((x2 - x1)² + (y2 - y1)² + (z2 - z1)²)"
+  },
+  {
+    "question": "363. Ellipsning fokuslari orasidagi masofa 2c ning katta o'qi 2a ga nisbati nima deb ataladi?",
+    "options": [
+      "Ekssentrisitet",
+      "Fokal parametr",
+      "Asimptota koeffitsiyenti",
+      "Direktrisa masofasi"
+    ],
+    "correct": "Ekssentrisitet"
+  },
+  {
+    "question": "364. Ekssentrisiteti har doim e = 1 ga teng bo'lgan ikkinchi tartibli egri chiziq qaysi?",
+    "options": [
+      "Parabola",
+      "Ellips",
+      "Giperbola",
+      "Aylana"
+    ],
+    "correct": "Parabola"
+  },
+  {
+    "question": "365. 25x² - 9y² = 225 tenglama qanday egri chiziqni ifodalaydi?",
+    "options": [
+      "Giperbola",
+      "Parabola",
+      "Aylana",
+      "Ellips"
+    ],
+    "correct": "Giperbola"
+  },
+  {
+    "question": "366. Ikkinchi tartibli chiziqlar (ellips va giperbola) uchun ekssentrisitet qanday formula orqali ifodalanadi?",
+    "options": [
+      "e = c / a",
+      "e = a / c",
+      "e = b / a",
+      "e = c / b"
+    ],
+    "correct": "e = c / a"
+  },
+  {
+    "question": "367. Ellips uchun ekssentrisitet qiymati qaysi oraliqda yotadi?",
+    "options": [
+      "0 <= e < 1",
+      "e > 1",
+      "e = 1",
+      "e = 0"
+    ],
+    "correct": "0 <= e < 1"
+  },
+  {
+    "question": "368. Giperbola uchun ekssentrisitet qiymati qanday bo'ladi?",
+    "options": [
+      "e > 1",
+      "0 < e < 1",
+      "e = 1",
+      "e = 0"
+    ],
+    "correct": "e > 1"
+  },
+  {
+    "question": "369. y² = 2px kanonik tenglamasidagi p parametri nima deb ataladi?",
+    "options": [
+      "Parabolaning fokusi parametri (fokal parametr)",
+      "Direktrisa koeffitsiyenti",
+      "Ekssentrisitet qiymati",
+      "Uchining koordinatasi"
+    ],
+    "correct": "Parabolaning fokusi parametri (fokal parametr)"
+  },
+  {
+    "question": "370. Parabolaning fokusi F va uning ixtiyoriy nuqtasidan direktrisasigacha bo'lgan masofalar nisbati nimaga teng?",
+    "options": [
+      "1 ga (chunki ekssentrisiteti 1 ga teng)",
+      "0 ga",
+      "0.5 ga",
+      "2 ga"
+    ],
+    "correct": "1 ga (chunki ekssentrisiteti 1 ga teng)"
+  },
+  {
+    "question": "371. Fazoda M0(x0, y0, z0) nuqtadan o'tibh, n(A, B, C) normal vektorga ega tekislik tenglamasi qaysi?",
+    "options": [
+      "A(x - x0) + B(y - y0) + C(z - z0) = 0",
+      "Ax + By + Cz + D = 0",
+      "x/x0 + y/y0 + z/z0 = 1",
+      "(x-x0)/A = (y-y0)/B = (z-z0)/C"
+    ],
+    "correct": "A(x - x0) + B(y - y0) + C(z - z0) = 0"
+  },
+  {
+    "question": "372. x/a + y/b + z/c = 1 tenglama tekislikning qanday tenglamasi deyiladi?",
+    "options": [
+      "Tekislikning kesmalar bo'yicha tenglamasi",
+      "Tekislikning umumiy tenglamasi",
+      "Tekislikning normal tenglamasi",
+      "Tekislikning parametrik tenglamasi"
+    ],
+    "correct": "Tekislikning kesmalar bo'yicha tenglamasi"
+  },
+  {
+    "question": "373. M0(x0, y0, z0) nuqtadan Ax + By + Cz + D = 0 tekislikgacha bo'lgan masofa d qanday hisoblanadi?",
+    "options": [
+      "d = |Ax0 + By0 + Cz0 + D| / ildiz(A² + B² + C²)",
+      "d = (Ax0 + By0 + Cz0 + D) / (A + B + C)",
+      "d = ildiz((x-x0)² + (y-y0)² + (z-z0)²)",
+      "d = |Ax0 + By0 + Cz0 + D|"
+    ],
+    "correct": "d = |Ax0 + By0 + Cz0 + D| / ildiz(A² + B² + C²)"
+  },
+  {
+    "question": "374. Fazoda ikki tekislik parallel bo'lishi uchun ularning koeffitsiyentlari qaysi shartni qanoatlantirishi kerak?",
+    "options": [
+      "A1/A2 = B1/B2 = C1/C2 != D1/D2",
+      "A1A2 + B1B2 + C1C2 = 0",
+      "A1/A2 = B1/B2 = C1/C2 = D1/D2",
+      "A1B2 - A2B1 = 0"
+    ],
+    "correct": "A1/A2 = B1/B2 = C1/C2 != D1/D2"
+  },
+  {
+    "question": "375. To'g'ri chiziqning fazodagi parametrik tenglamalari qaysilar?",
+    "options": [
+      "x = x0 + lt, y = y0 + mt, z = z0 + nt",
+      "(x - x0)/l = (y - y0)/m = (z - z1)/n",
+      "Ax + By + Cz + D = 0",
+      "y = kx + b, z = px + q"
+    ],
+    "correct": "x = x0 + lt, y = y0 + mt, z = z0 + nt"
+  },
+  {
+    "question": "376. Fazodagi (x - x0)/l = (y - y0)/m = (z - z0)/n to'g'ri chiziq tenglamasi qanday nomlanadi?",
+    "options": [
+      "Kanonik tenglama",
+      "Parametrik tenglama",
+      "Umumiy tenglama",
+      "Yo'naltiruvchi tenglama"
+    ],
+    "correct": "Kanonik tenglama"
+  },
+  {
+    "question": "377. M(1, -2, 3) nuqtadan 2x - y + 3z + 5 = 0 tekislikgacha bo'lgan masofani hisoblang:",
+    "options": [
+      "18 / ildiz(14)",
+      "9 / ildiz(14)",
+      "18 / 14",
+      "0"
+    ],
+    "correct": "18 / ildiz(14)"
+  },
+  {
+    "question": "378. Ikki tekislik ustma-ust tushishi (mos tushishi) sharti qanday yoziladi?",
+    "options": [
+      "A1/A2 = B1/B2 = C1/C2 = D1/D2",
+      "A1/A2 = B1/B2 = C1/C2 != D1/D2",
+      "A1A2 + B1B2 + C1C2 = 0",
+      "A1=A2, B1=B2, C1=C2"
+    ],
+    "correct": "A1/A2 = B1/B2 = C1/C2 = D1/D2"
+  },
+  {
+    "question": "379. Fazoda to'g'ri chiziq va tekislikning parallellik sharti ularning normal va yo'naltiruvchi vektorlari orqali qanday ifodalanadi?",
+    "options": [
+      "Al + Bm + Cn = 0",
+      "A/l = B/m = C/n",
+      "Al + Bm + Cn != 0",
+      "A+l = B+m = C+n"
+    ],
+    "correct": "Al + Bm + Cn = 0"
+  },
+  {
+    "question": "380. Fazoda to'g'ri chiziq va tekislikning perpendikulyarlik sharti qanday?",
+    "options": [
+      "A/l = B/m = C/n",
+      "Al + Bm + Cn = 0",
+      "Al - Bm + Cn = 0",
+      "A*l = B*m = C*n"
+    ],
+    "correct": "A/l = B/m = C/n"
+  },
+  {
+    "question": "381. M0(2; 3; 4) nuqtadan o'tib, Ox o'qiga parallel bo'lgan to'g'ri chiziqning kanonik tenglamasini ko'rsating:",
+    "options": [
+      "(x - 2)/1 = (y - 3)/0 = (z - 4)/0",
+      "(x - 2)/0 = (y - 3)/1 = (z - 4)/0",
+      "(x - 2)/1 = (y - 3)/1 = (z - 4)/1",
+      "x = 2, y = 3, z = 4"
+    ],
+    "correct": "(x - 2)/1 = (y - 3)/0 = (z - 4)/0"
+  },
+  {
+    "question": "382. M0(2; 3; 4) nuqtadan o'tib, Oz o'qiga parallel bo'lgan to'g'ri chiziqning kanonik tenglamasini ko'rsating:",
+    "options": [
+      "(x - 2)/0 = (y - 3)/0 = (z - 4)/1",
+      "(x - 2)/1 = (y - 3)/0 = (z - 4)/0",
+      "(x - 2)/0 = (y - 3)/1 = (z - 4)/0",
+      "z = 4"
+    ],
+    "correct": "(x - 2)/0 = (y - 3)/0 = (z - 4)/1"
+  },
+  {
+    "question": "383. C ning qanday qiymatida A(2; 3) nuqta 4x - 2y + C = 0 to'g'ri chiziqda yotadi?",
+    "options": [
+      "-2",
+      "2",
+      "0",
+      "-4"
+    ],
+    "correct": "-2"
+  },
+  {
+    "question": "384. 5x - 12y + 26 = 0 va 10x - 24y + 52 = 0 to'g'ri chiziqlar o'zaro parallel bo'lsa, ular orasidagi masofani toping:",
+    "options": [
+      "0 (chunki to'g'ri chiziqlar ustma-ust tushadi)",
+      "1",
+      "4",
+      "2"
+    ],
+    "correct": "0 (chunki to'g'ri chiziqlar ustma-ust tushadi)"
+  },
+  {
+    "question": "385. M1(1; 1; 1) va M2(3; 3; 3) nuqtalardan o'tuvchi to'g'ri chiziqning kanonik tenglamasini ko'rsating:",
+    "options": [
+      "(x - 1)/2 = (y - 1)/2 = (z - 1)/2 yoki (x - 1)/1 = (y - 1)/1 = (z - 1)/1",
+      "(x - 1)/3 = (y - 1)/3 = (z - 1)/3",
+      "x/1 = y/1 = z/1",
+      "(x - 3)/1 = (y - 3)/1 = (z - 3)/1"
+    ],
+    "correct": "(x - 1)/2 = (y - 1)/2 = (z - 1)/2 yoki (x - 1)/1 = (y - 1)/1 = (z - 1)/1"
+  },
+  {
+    "question": "386. Parabolaning direktrisasi x = -3 bo'lsa, uning kanonik tenglamasi qanday bo'ladi?",
+    "options": [
+      "y² = 12x",
+      "y² = 6x",
+      "y² = -12x",
+      "x² = 12y"
+    ],
+    "correct": "y² = 12x"
+  },
+  {
+    "question": "387. Ellips x²/100 + y²/36 = 1 berilgan. Uning fokuslararo masofasini (2c) toping:",
+    "options": [
+      "16",
+      "8",
+      "6",
+      "12"
+    ],
+    "correct": "16"
+  },
+  {
+    "question": "388. Giperbolaning kanonik tenglamasi x²/16 - y²/9 = 1 berilgan. Uning ekssentrisitetini toping:",
+    "options": [
+      "5/4",
+      "5/3",
+      "3/4",
+      "4/5"
+    ],
+    "correct": "5/4"
+  },
+  {
+    "question": "389. To'g'ri chiziq va tekislikning kesishish nuqtasi koordinatalari qaysi usulda aniqlanadi?",
+    "options": [
+      "To'g'ri chiziqni parametrik ko'rinishga keltirib (x,y,z larni t orqali ifodalab), tekislik tenglamasiga qo'yib t parametrni topish orqali",
+      "Normal vektorlarni skalyar ko'paytirish orqali",
+      "Masofani nolga tenglashtirish orqali",
+      "Faqat d = 0 shartini tekshirish orqali"
+    ],
+    "correct": "To'g'ri chiziqni parametrik ko'rinishga keltirib (x,y,z larni t orqali ifodalab), tekislik tenglamasiga qo'yib t parametrni topish orqali"
+  },
+  {
+    "question": "390. Fazoda (x - 1)/2 = (y + 1)/-1 = z/3 to'g'ri chiziq va 2x - y + 3z - 5 = 0 tekislik o'zaro qanday vaziyatda joylashgan?",
+    "options": [
+      "Kesishadi, lekin perpendikulyar emas",
+      "Parallel bo'ladi",
+      "Perpendikulyar bo'ladi",
+      "To'g'ri chiziq tekislik ichida yotadi"
+    ],
+    "correct": "Kesishadi, lekin perpendikulyar emas"
+  },
+  {
+    "question": "391. Parallelogrammning uchta ketma-ket uchlari A(3;-5), B(5;-3), C(-1;3) berilgan. D uchining koordinatalarini toping:",
+    "options": [
+      "(-3; 1)",
+      "(-1; -1)",
+      "(3; -1)",
+      "(1; 1)"
+    ],
+    "correct": "(-3; 1)"
+  },
+  {
+    "question": "392. Parallelogrammning uchta uchi A(3;-5), B(5;-3), D(-3;1) berilgan. Uning C uchi koordinatalarini aniqlang:",
+    "options": [
+      "(-1; 3)",
+      "(1; 1)",
+      "(3; -1)",
+      "(-3; 1)"
+    ],
+    "correct": "(-1; 3)"
+  },
+  {
+    "question": "393. Parabola ta'rifiga ko'ra, u tekislikda qanday nuqtalarning geometrik o'rnidan iborat?",
+    "options": [
+      "Berilgan nuqta (fokus) va berilgan to'g'ri chiziqdan (direktrisa) teng uzoqlikda joylashgan nuqtalarning",
+      "Ikki berilgan nuqtagacha bo'lgan masofalari yig'indisi o'zgarmas bo'lgan nuqtalarning",
+      "Ikki berilgan nuqtagacha bo'lgan masofalari ayirmasi o'zgarmas bo'lgan nuqtalarning",
+      "Berilgan markazdan bir xil masofada yotuvchi nuqtalarning"
+    ],
+    "correct": "Berilgan nuqta (fokus) va berilgan to'g'ri chiziqdan (direktrisa) teng uzoqlikda joylashgan nuqtalarning"
+  },
+  {
+    "question": "394. Ellips ta'rifiga ko'ra, u tekislikda qanday nuqtalarning geometrik o'rnidan iborat?",
+    "options": [
+      "Fokuslar deb ataluvchi ikki berilgan nuqtagacha bo'lgan masofalari yig'indisi o'zgarmas (va 2a ga teng) bo'lgan nuqtalarning",
+      "Fokuslarigacha bo'lgan masofalari ayirmasi o'zgarmas bo'lgan nuqtalarning",
+      "Berilgan to'g'ri chiziqdan teng uzoqlikda yotgan nuqtalarning",
+      "Markazdan har xil uzoqlikda yotgan ixtiyoriy nuqtalarning"
+    ],
+    "correct": "Fokuslar deb ataluvchi ikki berilgan nuqtagacha bo'lgan masofalari yig'indisi o'zgarmas (va 2a ga teng) bo'lgan nuqtalarning"
+  },
+  {
+    "question": "395. Giperbola ta'rifiga ko'ra, u tekislikda qanday nuqtalarning geometrik o'rnidan iborat?",
+    "options": [
+      "Fokuslar deb ataluvchi ikki berilgan nuqtagacha bo'lgan masofalari ayirmasining absolyut qiymati o'zgarmas (va 2a ga teng) bo'lgan nuqtalarning",
+      "Fokuslarigacha bo'lgan masofalari yig'indisi o'zgarmas bo'lgan nuqtalarning",
+      "Direktrisaga parallel bo'lgan chiziqlar to'plamining",
+      "Faqat bitta o'qqa nisbatan simmetrik nuqtalarning"
+    ],
+    "correct": "Fokuslar deb ataluvchi ikki berilgan nuqtagacha bo'lgan masofalari ayirmasining absolyut qiymati o'zgarmas (va 2a ga teng) bo'lgan nuqtalarning"
+  },
+  {
+    "question": "396. x² + y² + z² = R² tenglama fazoda qanday sirtni ifodalaydi?",
+    "options": [
+      "Sfera (markazi koordinata boshida, radiusi R bo'lgan)",
+      "Silindrik sirt",
+      "Konus sirti",
+      "Ellipsoid"
+    ],
+    "correct": "Sfera (markazi koordinata boshida, radiusi R bo'lgan)"
+  },
+  {
+    "question": "397. Fazoda (x - x0)² + (y - y0)² + (z - z0)² = R² nimaning tenglamasi?",
+    "options": [
+      "Markazi (x0; y0; z0) nuqtada va radiusi R bo'lgan sfera",
+      "Aylanma paraboloid",
+      "Uch o'lchamli ellips tenglamasi",
+      "Gidro-silindr sirti"
+    ],
+    "correct": "Markazi (x0; y0; z0) nuqtada va radiusi R bo'lgan sfera"
+  },
+  {
+    "question": "398. x²/a² + y²/b² + z²/c² = 1 tenglama fazoda qanday sirt shaklini ifodalaydi?",
+    "options": [
+      "Ellipsoid",
+      "Ikki pallali giperboloid",
+      "Elliptik paraboloid",
+      "Bir pallali giperboloid"
+    ],
+    "correct": "Ellipsoid"
+  },
+  {
+    "question": "399. x²/a² + y²/b² - z²/c² = 1 tenglama fazoda qanday sirtni ifodalaydi?",
+    "options": [
+      "Bir pallali giperboloid",
+      "Ikki pallali giperboloid",
+      "Elliptik konus",
+      "Paraboloid"
+    ],
+    "correct": "Bir pallali giperboloid"
+  },
+  {
+    "question": "400. x²/a² + y²/b² - z²/c² = -1 (yoki z²/c² - x²/a² - y²/b² = 1) tenglama fazoda qanday sirtni ifodalaydi?",
+    "options": [
+      "Ikki pallali giperboloid",
+      "Bir pallali giperboloid",
+      "Aylanma silindr",
+      "Elliptik konus"
+    ],
+    "correct": "Ikki pallali giperboloid"
+  },
+  {
+    "question": "401. Koordinata boshidan 7x - 8y = 0 to'g'ri chiziqqa perpendikulyar tushirilgan. Shu perpendikulyar to'g'ri chiziq tenglamasini tuzing:",
+    "options": [
+      "8x + 7y = 0",
+      "7x + 8y = 0",
+      "8x - 7y = 0",
+      "7x - 8y = 0"
+    ],
+    "correct": "8x + 7y = 0"
+  },
+  {
+    "question": "402. Dekart koordinatalarida M(0; 2) nuqtaning qutb koordinatalarini (rho; phi) aniqlang:",
+    "options": [
+      "(2; pi/2)",
+      "(2; 0)",
+      "(2; pi)",
+      "(ildiz(2); pi/4)"
+    ],
+    "correct": "(2; pi/2)"
+  },
+  {
+    "question": "403. Dekart koordinatalarida M(-3; 0) nuqtaning qutb koordinatalarini (rho; phi) aniqlang:",
+    "options": [
+      "(3; pi)",
+      "(3; 0)",
+      "(3; pi/2)",
+      "(-3; pi)"
+    ],
+    "correct": "(3; pi)"
+  },
+  {
+    "question": "404. x²/a² + y²/b² = z²/c² tenglama fazoda qanday sirtni ifodalaydi?",
+    "options": [
+      "Elliptik konus",
+      "Elliptik silindr",
+      "Elliptik paraboloid",
+      "Bir pallali giperboloid"
+    ],
+    "correct": "Elliptik konus"
+  },
+  {
+    "question": "405. x²/a² + y²/b² = 2z tenglama fazoda qanday sirt shaklini ifodalaydi?",
+    "options": [
+      "Elliptik paraboloid",
+      "Giperbolik paraboloid",
+      "Parabolik silindr",
+      "Ellipsoid"
+    ],
+    "correct": "Elliptik paraboloid"
+  },
+  {
+    "question": "406. x²/a² - y²/b² = 2z tenglama fazoda qanday sirt shaklini ifodalaydi (egar ko'rinishidagi sirt)?",
+    "options": [
+      "Giperbolik paraboloid",
+      "Elliptik paraboloid",
+      "Ikki pallali giperboloid",
+      "Parabolik silindr"
+    ],
+    "correct": "Giperbolik paraboloid"
+  },
+  {
+    "question": "407. Uch o'lchamli fazoda z o'zgaruvchisi qatnashmagan x²/a² + y²/b² = 1 tenglamasi qanday sirtni ifodalaydi?",
+    "options": [
+      "Elliptik silindr (yasovchilari Oz o'qiga parallel bo'lgan)",
+      "Ellips chizig'ini xolos",
+      "Aylanma konus",
+      "Ellipsoid sirtini"
+    ],
+    "correct": "Elliptik silindr (yasovchilari Oz o'qiga parallel bo'lgan)"
+  },
+  {
+    "question": "408. Uch o'lchamli fazoda z o'zgaruvchisi qatnashmagan x²/a² - y²/b² = 1 tenglamasi qanday sirtni bildiradi?",
+    "options": [
+      "Giperbolik silindr (yasovchilari Oz o'qiga parallel bo'lgan)",
+      "Giperbola chizig'ini",
+      "Ikki pallali giperboloid",
+      "Konus sirti"
+    ],
+    "correct": "Giperbolik silindr (yasovchilari Oz o'qiga parallel bo'lgan)"
+  },
+  {
+    "question": "409. Uch o'lchamli fazoda y² = 2px tenglamasi qanday sirtni ifodalaydi?",
+    "options": [
+      "Parabolik silindr (yasovchilari Oz o'qiga parallel bo'lgan)",
+      "Parabola chizig'ini xolos",
+      "Elliptik paraboloid",
+      "Aylanma konus"
+    ],
+    "correct": "Parabolik silindr (yasovchilari Oz o'qiga parallel bo'lgan)"
+  },
+  {
+    "question": "410. Fazoda to'g'ri chiziq va tekislikning kesishish nuqtasi qanday usulda topiladi?",
+    "options": [
+      "To'g'ri chiziqni parametrik ko'rinishga keltirib, x, y, z ifodalarini tekislik tenglamasiga qo'yish orqali t parametr topiladi",
+      "Sirtlar integrali yordamida",
+      "Faqat d = 0 shartini tekshirish orqali",
+      "Tekislik normal vektori va yo'naltiruvchi vektorni skalyar ko'paytirish orqali"
+    ],
+    "correct": "To'g'ri chiziqni parametrik ko'rinishga keltirib, x, y, z ifodalarini tekislik tenglamasiga qo'yish orqali t parametr topiladi"
+  },
+  {
+    "question": "411. Fazoda z = 0 tenglama nimani ifodalaydi?",
+    "options": [
+      "Oxy koordinata tekisligini",
+      "Oz o'qini",
+      "Oxz koordinata tekisligini",
+      "Oyz koordinata tekisligini"
+    ],
+    "correct": "Oxy koordinata tekisligini"
+  },
+  {
+    "question": "412. Fazoda y = 0 tenglama nimani ifodalaydi?",
+    "options": [
+      "Oxz koordinata tekisligini",
+      "Oy o'qini",
+      "Oxy koordinata tekisligini",
+      "Oyz koordinata tekisligini"
+    ],
+    "correct": "Oxz koordinata tekisligini"
+  },
+  {
+    "question": "413. Fazoda x = 0 tenglama qaysi koordinata tekisligini ifodalaydi?",
+    "options": [
+      "Oyz koordinata tekisligini",
+      "Oxz koordinata tekisligini",
+      "Oxy koordinata tekisligini",
+      "Ox o'qini"
+    ],
+    "correct": "Oyz koordinata tekisligini"
+  },
+  {
+    "question": "414. Fazoda Ax + By + C = 0 (z qatnashmagan) tekislik umumiy tenglamasi qaysi o'qqa parallel bo'ladi?",
+    "options": [
+      "Oz o'qiga parallel bo'ladi (yoki Oz o'qidan o'tadi)",
+      "Ox o'qiga",
+      "Oy o'qiga",
+      "Hech qaysi o'qqa parallel bo'lmaydi"
+    ],
+    "correct": "Oz o'qiga parallel bo'ladi (yoki Oz o'qidan o'tadi)"
+  },
+  {
+    "question": "415. Fazoda Ax + Cz + D = 0 (y qatnashmagan) tekislik tenglamasi qaysi o'qqa parallel bo'ladi?",
+    "options": [
+      "Oy o'qiga parallel bo'ladi",
+      "Ox o'qiga parallel bo'ladi",
+      "Oz o'qiga parallel bo'ladi",
+      "Koordinata boshiga parallel bo'ladi"
+    ],
+    "correct": "Oy o'qiga parallel bo'ladi"
+  },
+  {
+    "question": "416. Fazoda By + Cz + D = 0 (x qatnashmagan) tekislik tenglamasi qaysi o'qqa parallel bo'ladi?",
+    "options": [
+      "Ox o'qiga parallel bo'ladi",
+      "Oy o'qiga parallel bo'ladi",
+      "Oz o'qiga parallel bo'ladi",
+      "Tekislik o'qlarga perpendikulyar bo'ladi"
+    ],
+    "correct": "Ox o'qiga parallel bo'ladi"
+  },
+  {
+    "question": "417. Oz o'qidan o'tuvchi tekislik tenglamasining ko'rinishi qanday bo'ladi (D = 0 va C = 0 holatda)?",
+    "options": [
+      "Ax + By = 0",
+      "By + Cz = 0",
+      "Ax + Cz = 0",
+      "Ax + By + Cz = 0"
+    ],
+    "correct": "Ax + By = 0"
+  },
+  {
+    "question": "418. Oxy koordinata tekisligining tenglamasi qaysi javobda to'g'ri ko'rsatilgan?",
+    "options": [
+      "z = 0",
+      "y = 0",
+      "x = 0",
+      "x + y = 0"
+    ],
+    "correct": "z = 0"
+  },
+  {
+    "question": "419. Ox o'qiga perpendikulyar bo'lgan tekislik tenglamasi qanday ko'rinishda bo'ladi?",
+    "options": [
+      "Ax + D = 0",
+      "By + D = 0",
+      "Cz + D = 0",
+      "x = 0"
+    ],
+    "correct": "Ax + D = 0"
+  },
+  {
+    "question": "420. Oy o'qiga perpendikulyar bo'lgan tekislik tenglamasi qanday ko'rinishda bo'ladi?",
+    "options": [
+      "By + D = 0",
+      "Ax + D = 0",
+      "Cz + D = 0",
+      "y = 0"
+    ],
+    "correct": "By + D = 0"
+  },
+  {
+    "question": "421. M(-8;9) nuqtadan o’tuvchi va OY o’qiga parallel bo’lgan to’g’ri chiziq tenglamasi tuzilsin.",
+    "options": [
+      "x + 8 = 0",
+      "x - 8 = 0",
+      "y - 9 = 0",
+      "y + 9 = 0"
+    ],
+    "correct": "x + 8 = 0"
+  },
+  {
+    "question": "422. M(3;-4) nuqtaga x+y=0 to’g’ri chiziqqa nisbatan simmetrik bo’lgan nuqta koordinatalari topilsin.",
+    "options": [
+      "(4; -3)",
+      "(-4; 3)",
+      "(-3; 4)",
+      "(-4; -3)"
+    ],
+    "correct": "(4; -3)"
+  },
+  {
+    "question": "423. M(0;-4) nuqtaning qutb koordinatalari topilsin.",
+    "options": [
+      "(4; 3pi/2)",
+      "(4; pi/2)",
+      "(4; pi)",
+      "(-4; pi/2)"
+    ],
+    "correct": "(4; 3pi/2)"
+  },
+  {
+    "question": "424. Koordinata o’qlaridan bir xil kesmalar ajratuvchi va M(5;2) nuqtadan o’tuvchi to’g’ti chiziq tenglamasi tuzilsin.",
+    "options": [
+      "x + y - 7 = 0",
+      "x - y - 3 = 0",
+      "x + y + 7 = 0",
+      "2x + 5y - 20 = 0"
+    ],
+    "correct": "x + y - 7 = 0"
+  },
+  {
+    "question": "425. M(0;2) nuqtaning qutb koordinatalari topilsin.",
+    "options": [
+      "(2; pi/2)",
+      "(2; 0)",
+      "(2; pi)",
+      "(ildiz(2); pi/4)"
+    ],
+    "correct": "(2; pi/2)"
+  },
+  {
+    "question": "426. Koordinata boshidan o’tib, 2x+3y-6=0 to’g’ri chiziqga perpendikulyar bo’lgan to’g’ri chiziq tenglamasini toping.",
+    "options": [
+      "3x - 2y = 0",
+      "2x - 3y = 0",
+      "3x + 2y = 0",
+      "x + y = 0"
+    ],
+    "correct": "3x - 2y = 0"
+  },
+  {
+    "question": "427. Koordinata boshidan 7x-8y+15=0 to’g’ri chiziqqa perpendikulyar tushirilgan. Shu perpendikulyar tenglamasi tuzilsin.",
+    "options": [
+      "8x + 7y = 0",
+      "7x + 8y = 0",
+      "8x - 7y = 0",
+      "7x - 8y = 0"
+    ],
+    "correct": "8x + 7y = 0"
+  },
+  {
+    "question": "428. M(0;-2) nuqtaning qutb koordinatalari topilsin.",
+    "options": [
+      "(2; 3pi/2)",
+      "(2; pi/2)",
+      "(2; pi)",
+      "(-2; pi/2)"
+    ],
+    "correct": "(2; 3pi/2)"
+  },
+  {
+    "question": "429. Ellipsning yarim o’qlari a=5, b=2 bo’lsa, uning kanonik tenglamasini ko'rsating:",
+    "options": [
+      "x²/25 + y²/4 = 1",
+      "x²/5 + y²/2 = 1",
+      "x²/25 - y²/4 = 1",
+      "x² + y² = 25"
+    ],
+    "correct": "x²/25 + y²/4 = 1"
+  },
+  {
+    "question": "430. x²/100 + y²/64 = 1 ellipsning kichik o'qi uzunligini (2b) ko'rsating:",
+    "options": [
+      "16",
+      "8",
+      "10",
+      "20"
+    ],
+    "correct": "16"
+  },
+  {
+    "question": "431. y² = 16x parabola fokusidan direktrisasigacha bo'lgan masofa (p) nimaga teng?",
+    "options": [
+      "8",
+      "4",
+      "2",
+      "16"
+    ],
+    "correct": "8"
+  },
+  {
+    "question": "432. (x-2)/3 = (y+1)/2 = (z-3)/-1 to'g'ri chiziqning yo'naltiruvchi vektori koordinatalarini ko'rsating:",
+    "options": [
+      "{3; 2; -1}",
+      "{2; -1; 3}",
+      "{-3; -2; 1}",
+      "{3; 2; 1}"
+    ],
+    "correct": "{3; 2; -1}"
+  },
+  {
+    "question": "433. M(3; -1; 2) nuqtadan Oxy koordinata tekisligigacha bo'lgan masofani toping:",
+    "options": [
+      "2",
+      "3",
+      "1",
+      "ildiz(14)"
+    ],
+    "correct": "2"
+  },
+  {
+    "question": "434. Uchlari A(1; 1; 1), B(2; 3; 3), C(1; 1; 5) nuqtalarda bo'lgan ABC uchburchak yuzi uchun asos bo'lgan AB va AC vektorlarining vektor ko'paytmasi a × b modulini hisoblang:",
+    "options": [
+      "8",
+      "4",
+      "2",
+      "ildiz(20)"
+    ],
+    "correct": "8"
+  }
+]
