@@ -44,18 +44,31 @@ def get_blocks_keyboard(chat_id):
 
 @dp.message(Command("start"))
 async def start_cmd(message: types.Message):
-    await message.answer("👋 Viktorina botiga xush kelibsiz!\n/quiz - Testni boshlash\n/stop - To'xtatish")
+    await message.answer("👋 Viktorina botiga xush kelibsiz!\n/quiz - Testni boshlash\n/stop - To'xtatish va natijalarni ko'rish")
 
 @dp.message(Command("quiz"))
 async def choose_block_msg(message: types.Message):
     await message.answer("📚 Viktorina blokini tanlang:", reply_markup=get_blocks_keyboard(message.chat.id))
+
+@dp.message(Command("stop"))
+async def stop_quiz_cmd(message: types.Message):
+    chat_id = message.chat.id
+    if chat_id not in games:
+        return await message.answer("❌ Hozirda hech qanday faol test mavjud emas.")
+    
+    # Taymerni va poll-ni to'xtatamiz
+    game = games[chat_id]
+    if game.get("task"): game["task"].cancel()
+    await safe_stop_poll(chat_id, game.get("current_msg_id"))
+    
+    await message.answer("🛑 Viktorina to'xtatildi. Natijalar hisoblanmoqda...")
+    await finish_quiz(chat_id)
 
 @dp.callback_query(F.data.startswith("block:"))
 async def set_block_and_show_timer(callback: types.CallbackQuery):
     _, block_idx, chat_id = callback.data.split(":")
     block_idx, chat_id = int(block_idx), int(chat_id)
     
-    # Blok ichida savollar va variantlarni aralashtirish
     block_data = ALL_QUESTIONS[block_idx * BLOCK_SIZE : (block_idx + 1) * BLOCK_SIZE]
     shuffled_questions = []
     for q in block_data:
@@ -123,7 +136,17 @@ async def handle_poll_answer(poll_answer: types.PollAnswer):
 async def finish_quiz(chat_id):
     if chat_id not in games: return
     game = games.pop(chat_id)
-    report = "🏁 **Natijalar:**\n" + "\n".join([f"{d['name']}: {d['correct']}" for d in game["results"].values()])
+    results = game["results"]
+    
+    report = f"🏁 **{game['block_num']}-Blok natijalari:**\n"
+    if not results:
+        report += "Hech kim javob bermadi."
+    else:
+        # Natijalarni saralash (eng ko'p to'g'ri javob bergan birinchi)
+        sorted_res = sorted(results.values(), key=lambda x: x["correct"], reverse=True)
+        for i, d in enumerate(sorted_res, 1):
+            report += f"{i}. 👤 {d['name']} ➔ **{d['correct']} ta** to'g'ri\n"
+            
     await bot.send_message(chat_id, report, parse_mode="Markdown")
 
 async def start_web_server():
