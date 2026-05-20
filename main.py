@@ -15,12 +15,13 @@ dp = Dispatcher()
 games = {}
 poll_to_chat = {}
 
+# Savollarni yuklash
 ALL_QUESTIONS = []
 try:
     with open("questions.json", "r", encoding="utf-8") as file:
         ALL_QUESTIONS = json.load(file)
 except FileNotFoundError:
-    ALL_QUESTIONS = [{"question": f"Test {i}", "options": ["A", "B", "C"], "correct": "A"} for i in range(1, 13)]
+    ALL_QUESTIONS = [{"question": "Test", "options": ["A", "B"], "correct": "A"}]
 
 BLOCK_SIZE = 50 
 
@@ -43,7 +44,7 @@ def get_blocks_keyboard(chat_id):
 
 @dp.message(Command("start"))
 async def start_cmd(message: types.Message):
-    await message.answer("👋 Salom! Viktorina botga xush kelibsiz.\n/quiz - Testni boshlash\n/stop - To'xtatish")
+    await message.answer("👋 Viktorina botiga xush kelibsiz!\n/quiz - Testni boshlash\n/stop - To'xtatish")
 
 @dp.message(Command("quiz"))
 async def choose_block_msg(message: types.Message):
@@ -54,11 +55,8 @@ async def set_block_and_show_timer(callback: types.CallbackQuery):
     _, block_idx, chat_id = callback.data.split(":")
     block_idx, chat_id = int(block_idx), int(chat_id)
     
-    start_idx = block_idx * BLOCK_SIZE
-    end_idx = start_idx + BLOCK_SIZE
-    block_data = ALL_QUESTIONS[start_idx:end_idx]
-    
-    # Savollar va variantlarni aralashtirish
+    # Blok ichida savollar va variantlarni aralashtirish
+    block_data = ALL_QUESTIONS[block_idx * BLOCK_SIZE : (block_idx + 1) * BLOCK_SIZE]
     shuffled_questions = []
     for q in block_data:
         opts = list(q["options"])
@@ -68,8 +66,7 @@ async def set_block_and_show_timer(callback: types.CallbackQuery):
 
     games[chat_id] = {
         "questions": shuffled_questions, "current_index": 0, "time_limit": 30,
-        "results": {}, "is_group": callback.message.chat.type in ["group", "supergroup"],
-        "block_num": block_idx + 1, "unanswered_counter": 0, "current_poll_answered": False
+        "results": {}, "block_num": block_idx + 1
     }
     
     builder = InlineKeyboardBuilder()
@@ -89,10 +86,9 @@ async def send_next_question(chat_id):
     
     game = games[chat_id]
     q = game["questions"][game["current_index"]]
-    correct_text = str(q["correct"]).strip().lower()
-    correct_idx = next((i for i, opt in enumerate(q["options"]) if str(opt).strip().lower() == correct_text), 0)
+    correct_idx = next((i for i, opt in enumerate(q["options"]) if str(opt).strip().lower() == str(q["correct"]).strip().lower()), 0)
     
-    poll_msg = await bot.send_poll(chat_id, f"🎲 {game['block_num']}-Blok | {game['current_index']+1}/{len(game['questions'])}:\n{q['question']}"[:300],
+    poll_msg = await bot.send_poll(chat_id, f"🎲 {game['block_num']}-Blok | {game['current_index']+1}-savol:\n{q['question']}"[:300],
                                     options=[o[:100] for o in q["options"]], type="quiz", correct_option_id=correct_idx, is_anonymous=False)
     
     game["current_msg_id"] = poll_msg.message_id
@@ -102,7 +98,6 @@ async def send_next_question(chat_id):
 async def wait_for_timer(chat_id, duration):
     await asyncio.sleep(duration)
     if chat_id in games:
-        await safe_stop_poll(chat_id, games[chat_id]["current_msg_id"])
         games[chat_id]["current_index"] += 1
         await send_next_question(chat_id)
 
@@ -112,12 +107,18 @@ async def handle_poll_answer(poll_answer: types.PollAnswer):
     if not chat_id or chat_id not in games: return
     game = games[chat_id]
     
+    if game.get("task"): game["task"].cancel()
+    await safe_stop_poll(chat_id, game["current_msg_id"])
+    
     q = game["questions"][game["current_index"]]
     correct_idx = next((i for i, opt in enumerate(q["options"]) if str(opt).strip().lower() == str(q["correct"]).strip().lower()), 0)
     
     user_id = poll_answer.user.id
     if user_id not in game["results"]: game["results"][user_id] = {"name": poll_answer.user.full_name, "correct": 0}
     if poll_answer.option_ids[0] == correct_idx: game["results"][user_id]["correct"] += 1
+    
+    game["current_index"] += 1
+    await send_next_question(chat_id)
 
 async def finish_quiz(chat_id):
     if chat_id not in games: return
