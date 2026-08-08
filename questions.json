@@ -2997,7 +2997,7 @@
       "(4; 2)",
       "(3; 2)"
     ],
-    "correct": "4; 1"
+    "correct": "(4; 1)"
   },
   {
     "question": "302. M1(2; 4) va M2(14; 10) nuqtalar berilgan. M1M2 kesmaning lambda = 1 : 2 nisbatda bo'luvchi M nuqtaning koordinatalarini aniqlang:",
