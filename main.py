@@ -1,11 +1,11 @@
 import os
 import json
-import random
 import asyncio
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command
-from aiogram.utils.keyboard import InlineKeyboardBuilder
 from aiohttp import web
+
+from utils import build_keyboard, find_correct_option_index, shuffle_questions
 
 TOKEN = os.environ.get("BOT_TOKEN", "8603585449:AAGCZJFndbzUNTLXSHNyFiowXMUmrxKi6p0")
 
@@ -31,16 +31,19 @@ async def safe_stop_poll(chat_id, message_id):
     except:
         pass
 
+async def stop_active_poll(game, chat_id):
+    if game.get("task"): game["task"].cancel()
+    await safe_stop_poll(chat_id, game.get("current_msg_id"))
+
 def get_blocks_keyboard(chat_id):
-    builder = InlineKeyboardBuilder()
     total_questions = len(ALL_QUESTIONS)
     block_count = (total_questions + BLOCK_SIZE - 1) // BLOCK_SIZE
+    buttons = []
     for i in range(block_count):
         start_num = i * BLOCK_SIZE + 1
         end_num = min((i + 1) * BLOCK_SIZE, total_questions)
-        builder.button(text=f"📦 Blok {i+1} ({start_num}-{end_num})", callback_data=f"block:{i}:{chat_id}")
-    builder.adjust(2)
-    return builder.as_markup()
+        buttons.append((f"📦 Blok {i+1} ({start_num}-{end_num})", f"block:{i}:{chat_id}"))
+    return build_keyboard(buttons, columns=2)
 
 @dp.message(Command("start"))
 async def start_cmd(message: types.Message):
@@ -57,9 +60,7 @@ async def stop_quiz_cmd(message: types.Message):
         return await message.answer("❌ Hozirda hech qanday faol test mavjud emas.")
     
     # Taymerni va poll-ni to'xtatamiz
-    game = games[chat_id]
-    if game.get("task"): game["task"].cancel()
-    await safe_stop_poll(chat_id, game.get("current_msg_id"))
+    await stop_active_poll(games[chat_id], chat_id)
     
     await message.answer("🛑 Viktorina to'xtatildi. Natijalar hisoblanmoqda...")
     await finish_quiz(chat_id)
@@ -70,21 +71,14 @@ async def set_block_and_show_timer(callback: types.CallbackQuery):
     block_idx, chat_id = int(block_idx), int(chat_id)
     
     block_data = ALL_QUESTIONS[block_idx * BLOCK_SIZE : (block_idx + 1) * BLOCK_SIZE]
-    shuffled_questions = []
-    for q in block_data:
-        opts = list(q["options"])
-        random.shuffle(opts)
-        shuffled_questions.append({"question": q["question"], "options": opts, "correct": q["correct"]})
-    random.shuffle(shuffled_questions)
 
     games[chat_id] = {
-        "questions": shuffled_questions, "current_index": 0, "time_limit": 30,
+        "questions": shuffle_questions(block_data), "current_index": 0, "time_limit": 30,
         "results": {}, "block_num": block_idx + 1
     }
-    
-    builder = InlineKeyboardBuilder()
-    for t in [15, 30, 60]: builder.button(text=f"{t} sek", callback_data=f"time:{t}:{chat_id}")
-    await callback.message.edit_text("⏱ Vaqtni tanlang:", reply_markup=builder.as_markup())
+
+    keyboard = build_keyboard([(f"{t} sek", f"time:{t}:{chat_id}") for t in [15, 30, 60]])
+    await callback.message.edit_text("⏱ Vaqtni tanlang:", reply_markup=keyboard)
 
 @dp.callback_query(F.data.startswith("time:"))
 async def set_time_and_start(callback: types.CallbackQuery):
@@ -99,7 +93,7 @@ async def send_next_question(chat_id):
     
     game = games[chat_id]
     q = game["questions"][game["current_index"]]
-    correct_idx = next((i for i, opt in enumerate(q["options"]) if str(opt).strip().lower() == str(q["correct"]).strip().lower()), 0)
+    correct_idx = find_correct_option_index(q)
     
     poll_msg = await bot.send_poll(chat_id, f"🎲 {game['block_num']}-Blok | {game['current_index']+1}-savol:\n{q['question']}"[:300],
                                     options=[o[:100] for o in q["options"]], type="quiz", correct_option_id=correct_idx, is_anonymous=False)
@@ -120,11 +114,10 @@ async def handle_poll_answer(poll_answer: types.PollAnswer):
     if not chat_id or chat_id not in games: return
     game = games[chat_id]
     
-    if game.get("task"): game["task"].cancel()
-    await safe_stop_poll(chat_id, game["current_msg_id"])
+    await stop_active_poll(game, chat_id)
     
     q = game["questions"][game["current_index"]]
-    correct_idx = next((i for i, opt in enumerate(q["options"]) if str(opt).strip().lower() == str(q["correct"]).strip().lower()), 0)
+    correct_idx = find_correct_option_index(q)
     
     user_id = poll_answer.user.id
     if user_id not in game["results"]: game["results"][user_id] = {"name": poll_answer.user.full_name, "correct": 0}
