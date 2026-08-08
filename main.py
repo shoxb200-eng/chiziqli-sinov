@@ -16,9 +16,10 @@ games = {}
 poll_to_chat = {}
 
 # Savollarni yuklash
+QUESTIONS_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "questions.json")
 ALL_QUESTIONS = []
 try:
-    with open("questions.json", "r", encoding="utf-8") as file:
+    with open(QUESTIONS_PATH, "r", encoding="utf-8") as file:
         ALL_QUESTIONS = json.load(file)
 except FileNotFoundError:
     ALL_QUESTIONS = [{"question": "Test", "options": ["A", "B"], "correct": "A"}]
@@ -155,6 +156,7 @@ async def start_web_server():
     runner = web.AppRunner(app)
     await runner.setup()
     await web.TCPSite(runner, '0.0.0.0', int(os.environ.get("PORT", 10000))).start()
+    return runner
 
 async def main():
     await bot.delete_webhook(drop_pending_updates=True)
